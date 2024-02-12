@@ -1,0 +1,4806 @@
+
+/* <!------------------------------header----------------------------------------> */
+
+@media (max-width:756px){
+
+    #bnrcom #toph1{
+        font-size: 30px;
+    }
+    #toph1 span{
+        font-size: 10px;
+    }
+
+}
+
+
+
+#bnrcom{
+    height: 90vh;
+    background-image: linear-gradient( rgba(17, 16, 16, 0.43),rgba(21, 19, 19, 0.386)),url(compareimg/comparitionbaner.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+}
+#bnrcom #toph1{
+    /* height: 100%;
+    width: 100%; */
+    position: absolute;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 46px;
+    color:rgb(219, 242, 242);
+    letter-spacing: 10px;
+}
+#toph1 span{
+    font-family: monospace;
+    color: black;
+    
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* <!------------------------------header----------------------------------------> */
+
+
+
+/* <!-----------------------------BARNDS AND MODEL OPTIONs 1------------------------------> */
+
+
+
+
+
+#namcontry{
+    position: relative;
+    background-color: white;
+    
+    left: 10px;
+    width: 335px;
+    border-bottom: 0.4px solid rgb(178, 174, 174);
+    height: 54px;
+    transition: 1s;
+    /* height: 10px; */
+    overflow: hidden;
+ }
+ /* #namcontrycont1{
+    display: block;
+    transition: 1s;
+  
+ } */
+ #namcontry a{
+    text-decoration: none;
+    position: relative;
+    top: 16px;
+    left: 20px;
+    font-size: 13px;
+    color: rgb(56, 55, 55);
+ }
+ #namcontry i{
+    position: absolute;
+    top: 27px;
+    right: 5px;
+    transition: 0.6s;
+ }
+#cityausade{
+    margin-top: 41px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausade i{
+    margin-top: 66px;
+    font-size: 17px;
+}
+#cityausbri{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausbri i{
+    margin-top: 136px;
+    font-size: 17px;
+}
+#cityausmel{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausmel i{
+    margin-top: 204px;
+    font-size: 17px;
+}
+#cityausper{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausper i{
+    margin-top: 275px;
+    font-size: 17px;
+}
+#cityaussyd{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityaussyd i{
+    margin-top: 347px;
+    font-size: 17px;
+}
+#namcontry2{
+    position: relative;
+    background-color: white;
+    left: 10px;
+    width: 335px;
+    border-bottom: 0.4px solid rgb(178, 174, 174);
+    height: 54px;
+    transition: 1s;
+    /* height: 10px; */
+    overflow: hidden;
+ }
+ /* #namcontrycont1{
+    display: block;
+    transition: 1s;
+  
+ } */
+ #namcontry2 a{
+    text-decoration: none;
+    position: relative;
+    top: 16px;
+    left: 20px;
+    font-size: 13px;
+    color: rgb(56, 55, 55);
+ }
+ #namcontry2 i{
+    position: absolute;
+    top: 12px;
+    
+    font-size: 40px;
+    transition: 0.6s;
+ }
+#cityausade2{
+    margin-top: 41px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausade2 i{
+    margin-top: 66px;
+    font-size: 17px;
+}
+#cityausbri2{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausbri2 i{
+    margin-top: 136px;
+    font-size: 17px;
+}
+#cityausmel2{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausmel2 i{
+    margin-top: 204px;
+    font-size: 17px;
+}
+#cityausper2{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausper2 i{
+    margin-top: 275px;
+    font-size: 17px;
+}
+#cityaussyd2{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityaussyd2 i{
+    margin-top: 347px;
+    font-size: 17px;
+}
+#namcontry3{
+    position: relative;
+    background-color: white;
+    left: 10px;
+    width: 335px;
+    border-bottom: 0.4px solid rgb(178, 174, 174);
+    height: 54px;
+    transition: 1s;
+    /* height: 10px; */
+    overflow: hidden;
+ }
+ /* #namcontrycont1{
+    display: block;
+    transition: 1s;
+  
+ } */
+ #namcontry3 a{
+    text-decoration: none;
+    position: relative;
+    top: 16px;
+    left: 20px;
+    font-size: 13px;
+    color: rgb(56, 55, 55);
+ }
+ #namcontry3 i{
+    position: absolute;
+    top: 12px;
+    left: 339px;
+    font-size: 34px;
+    transition: 0.6s;
+ }
+#cityausade3{
+    margin-top: 41px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausade3 i{
+    margin-top: 66px;
+    font-size: 17px;
+}
+#cityausbri3{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausbri3 i{
+    margin-top: 136px;
+    font-size: 17px;
+}
+#cityausmel3{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausmel3 i{
+    margin-top: 204px;
+    font-size: 17px;
+}
+#cityausper3{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausper3 i{
+    margin-top: 275px;
+    font-size: 17px;
+}
+#cityaussyd3{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityaussyd3 i{
+    margin-top: 347px;
+    font-size: 17px;
+}
+#namcontry4{
+    position: relative;
+    background-color: white;
+    left: 10px;
+    width: 335px;
+    border-bottom: 0.4px solid rgb(178, 174, 174);
+    height: 54px;
+    transition: 1s;
+    /* height: 10px; */
+    overflow: hidden;
+ }
+ /* #namcontrycont1{
+    display: block;
+    transition: 1s;
+  
+ } */
+ #namcontry4 a{
+    text-decoration: none;
+    position: relative;
+    top: 16px;
+    left: 20px;
+    font-size: 13px;
+    color: rgb(56, 55, 55);
+ }
+ #namcontry4 i{
+    position: absolute;
+    top: 27px;
+    left: 365px;
+    transition: 0.6s;
+ }
+#cityausade4{
+    margin-top: 41px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausade4 i{
+    margin-top: 66px;
+    font-size: 17px;
+}
+#cityausbri4{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausbri4 i{
+    margin-top: 136px;
+    font-size: 17px;
+}
+#cityausmel4{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausmel4 i{
+    margin-top: 204px;
+    font-size: 17px;
+}
+#cityausper4{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausper4 i{
+    margin-top: 275px;
+    font-size: 17px;
+}
+#cityaussyd4{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityaussyd4 i{
+    margin-top: 347px;
+    font-size: 17px;
+}
+#namcontry5{
+    position: relative;
+    background-color: white;
+    left: 10px;
+    width: 335px;
+    border-bottom: 0.4px solid rgb(178, 174, 174);
+    height: 54px;
+    transition: 1s;
+    /* height: 10px; */
+    overflow: hidden;
+ }
+ /* #namcontrycont1{
+    display: block;
+    transition: 1s;
+  
+ } */
+ #namcontry5 a{
+    text-decoration: none;
+    position: relative;
+    top: 16px;
+    left: 20px;
+    font-size: 13px;
+    color: rgb(56, 55, 55);
+ }
+ #namcontry5 i{
+    position: absolute;
+    top: 27px;
+    left: 365px;
+    transition: 0.6s;
+ }
+#cityausade5{
+    margin-top: 41px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausade5 i{
+    margin-top: 66px;
+    font-size: 17px;
+}
+#cityausbri5{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausbri5 i{
+    margin-top: 136px;
+    font-size: 17px;
+}
+#cityausmel5{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausmel5 i{
+    margin-top: 204px;
+    font-size: 17px;
+}
+#cityausper5{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausper5 i{
+    margin-top: 275px;
+    font-size: 17px;
+}
+#cityaussyd5{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausabc{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausabc2{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausabc3{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausabc4{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausabc5{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityaussyd5 i{
+    margin-top: 347px;
+    font-size: 17px;
+}
+#mainmodalbody{
+    height: 360px;
+    width: 370px;
+    overflow: auto;
+}
+.modal-content{
+    width: 390px;
+}
+#mainmodalbody::-webkit-scrollbar{
+    width: 0;
+}
+#ddicon1{
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+#ddicon2 {
+    position: absolute;
+    right: 30px;
+
+}
+#ddicon3 {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    height: 40px;
+    width: 60px;
+    
+}
+
+#ddicon4{
+    width: 73px;
+    height: 30px;
+    position: absolute;
+    right: 8px;
+    top: 15px;
+}
+#ddicon5{
+    width: 78px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+
+
+
+/* <!-----------------------------BARNDS AND MODEL OPTIONs 1------------------------------> */
+
+/* <!-----------------------------BARNDS AND MODEL OPTIONs 2------------------------------> */
+#nam2contry{
+    position: relative;
+    background-color: white;
+    left: 10px;
+    width: 335px;
+    border-bottom: 0.4px solid rgb(178, 174, 174);
+    height: 54px;
+    transition: 1s;
+    /* height: 10px; */
+    overflow: hidden;
+ }
+ /* #namcontrycont1{
+    display: block;
+    transition: 1s;
+  
+ } */
+ #nam2contry a{
+    text-decoration: none;
+    position: relative;
+    top: 16px;
+    left: 20px;
+    font-size: 13px;
+    color: rgb(56, 55, 55);
+ }
+ #nam2contry i{
+    position: absolute;
+    top: 27px;
+    left: 365px;
+    transition: 0.6s;
+ }
+#cityausade{
+    margin-top: 41px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausade i{
+    margin-top: 66px;
+    font-size: 17px;
+}
+#cityausbri{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausbri i{
+    margin-top: 136px;
+    font-size: 17px;
+}
+#cityausmel{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausmel i{
+    margin-top: 204px;
+    font-size: 17px;
+}
+#cityausper{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausper i{
+    margin-top: 275px;
+    font-size: 17px;
+}
+#cityaussyd{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityaussyd i{
+    margin-top: 347px;
+    font-size: 17px;
+}
+#nam2contry2{
+    position: relative;
+    background-color: white;
+    left: 10px;
+    width: 335px;
+    border-bottom: 0.4px solid rgb(178, 174, 174);
+    height: 54px;
+    transition: 1s;
+    /* height: 10px; */
+    overflow: hidden;
+ }
+ /* #namcontrycont1{
+    display: block;
+    transition: 1s;
+  
+ } */
+ #nam2contry2 a{
+    text-decoration: none;
+    position: relative;
+    top: 16px;
+    left: 20px;
+    font-size: 13px;
+    color: rgb(56, 55, 55);
+ }
+ #nam2contry2 i{
+    position: absolute;
+    top: 12px;
+    left: 275px;
+    font-size: 40px;
+    transition: 0.6s;
+ }
+#cityausade2{
+    margin-top: 41px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausade2 i{
+    margin-top: 66px;
+    font-size: 17px;
+}
+#cityausbri2{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausbri2 i{
+    margin-top: 136px;
+    font-size: 17px;
+}
+#cityausmel2{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausmel2 i{
+    margin-top: 204px;
+    font-size: 17px;
+}
+#cityausper2{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausper2 i{
+    margin-top: 275px;
+    font-size: 17px;
+}
+#cityaussyd2{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityaussyd2 i{
+    margin-top: 347px;
+    font-size: 17px;
+}
+#nam2contry3{
+    position: relative;
+    background-color: white;
+    left: 10px;
+    width: 335px;
+    border-bottom: 0.4px solid rgb(178, 174, 174);
+    height: 54px;
+    transition: 1s;
+    /* height: 10px; */
+    overflow: hidden;
+ }
+ /* #namcontrycont1{
+    display: block;
+    transition: 1s;
+  
+ } */
+ #nam2contry3 a{
+    text-decoration: none;
+    position: relative;
+    top: 13px;
+    left: 25px;
+    font-size: 13px;
+    color: rgb(56, 55, 55);
+ }
+ #nam2contry3 i{
+    position: absolute;
+    top: 12px;
+    left: 259px;
+    font-size: 34px;
+    transition: 0.6s;
+ }
+#cityausade3{
+    margin-top: 41px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausade3 i{
+    margin-top: 66px;
+    font-size: 17px;
+}
+#cityausbri3{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausbri3 i{
+    margin-top: 136px;
+    font-size: 17px;
+}
+#cityausmel3{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausmel3 i{
+    margin-top: 204px;
+    font-size: 17px;
+}
+#cityausper3{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausper3 i{
+    margin-top: 275px;
+    font-size: 17px;
+}
+#cityaussyd3{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityaussyd3 i{
+    margin-top: 347px;
+    font-size: 17px;
+}
+#nam2contry4{
+    position: relative;
+    background-color: white;
+    left: 10px;
+    width: 335px;
+    border-bottom: 0.4px solid rgb(178, 174, 174);
+    height: 54px;
+    transition: 1s;
+    /* height: 10px; */
+    overflow: hidden;
+ }
+ /* #namcontrycont1{
+    display: block;
+    transition: 1s;
+  
+ } */
+ #nam2contry4 a{
+    text-decoration: none;
+    position: relative;
+    top: 16px;
+    left: 20px;
+    font-size: 13px;
+    color: rgb(56, 55, 55);
+ }
+ #nam2contry4 i{
+    position: absolute;
+    top: 27px;
+    left: 365px;
+    transition: 0.6s;
+ }
+#cityausade4{
+    margin-top: 41px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausade4 i{
+    margin-top: 66px;
+    font-size: 17px;
+}
+#cityausbri4{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausbri4 i{
+    margin-top: 136px;
+    font-size: 17px;
+}
+#cityausmel4{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausmel4 i{
+    margin-top: 204px;
+    font-size: 17px;
+}
+#cityausper4{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausper4 i{
+    margin-top: 275px;
+    font-size: 17px;
+}
+#cityaussyd4{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityaussyd4 i{
+    margin-top: 347px;
+    font-size: 17px;
+}
+#nam2contry5{
+    position: relative;
+    background-color: white;
+    left: 10px;
+    width: 335px;
+    border-bottom: 0.4px solid rgb(178, 174, 174);
+    height: 54px;
+    transition: 1s;
+    /* height: 10px; */
+    overflow: hidden;
+ }
+ /* #namcontrycont1{
+    display: block;
+    transition: 1s;
+  
+ } */
+ #nam2contry5 a{
+    text-decoration: none;
+    position: relative;
+    top: 16px;
+    left: 20px;
+    font-size: 13px;
+    color: rgb(56, 55, 55);
+ }
+ #nam2contry5 i{
+    position: absolute;
+    top: 27px;
+    left: 365px;
+    transition: 0.6s;
+ }
+#cityausade5{
+    margin-top: 41px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausade5 i{
+    margin-top: 66px;
+    font-size: 17px;
+}
+#cityausbri5{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausbri5 i{
+    margin-top: 136px;
+    font-size: 17px;
+}
+#cityausmel5{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausmel5 i{
+    margin-top: 204px;
+    font-size: 17px;
+}
+#cityausper5{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausper5 i{
+    margin-top: 275px;
+    font-size: 17px;
+}
+#cityaussyd5{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausabc{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausabc2{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausabc3{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausabc4{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausabc5{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityaussyd5 i{
+    margin-top: 347px;
+    font-size: 17px;
+}
+#mainmodalbody{
+    height: 360px;
+    overflow: auto;
+}
+#mainmodalbody2{
+    height: 360px;
+    overflow: auto;
+}
+#mainmodalbody2::-webkit-scrollbar{
+    width: 0;
+}
+
+#ddicon1{
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+#ddicon4{
+    width: 73px;
+    height: 30px;
+    position: absolute;
+    right: 8px;
+    top: 15px;
+}
+#ddicon5{
+    width: 78px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+
+
+
+/* <!-----------------------------BARNDS AND MODEL OPTIONs 2------------------------------> */
+
+
+/* <!-----------------------------BARNDS AND MODEL OPTIONs 3------------------------------> */
+#nam3contry {
+    position: relative;
+    background-color: white;
+    
+    width: 335px;
+    border-bottom: 0.4px solid rgb(178, 174, 174);
+    height: 54px;
+    transition: 1s;
+    /* height: 10px; */
+    overflow: hidden;
+ }
+ /* #namcontrycont1{
+    display: block;
+    transition: 1s;
+  
+ } */
+ #nam3contry a{
+    text-decoration: none;
+    position: relative;
+    top: 16px;
+    left: 20px;
+    font-size: 13px;
+    color: rgb(56, 55, 55);
+ }
+ #nam3contry i{
+    position: absolute;
+    top: 27px;
+    left: 365px;
+    transition: 0.6s;
+ }
+#cityausade{
+    margin-top: 41px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausade i{
+    margin-top: 66px;
+    font-size: 17px;
+}
+#cityausbri{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausbri i{
+    margin-top: 136px;
+    font-size: 17px;
+}
+#cityausmel{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausmel i{
+    margin-top: 204px;
+    font-size: 17px;
+}
+#cityausper{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausper i{
+    margin-top: 275px;
+    font-size: 17px;
+}
+#cityaussyd{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityaussyd i{
+    margin-top: 347px;
+    font-size: 17px;
+}
+#nam3contry2{
+    position: relative;
+    background-color: white;
+    left: 10px;
+    width: 335px;
+    border-bottom: 0.4px solid rgb(178, 174, 174);
+    height: 54px;
+    transition: 1s;
+    /* height: 10px; */
+    overflow: hidden;
+ }
+ /* #namcontrycont1{
+    display: block;
+    transition: 1s;
+  
+ } */
+ #nam3contry2 a{
+    text-decoration: none;
+    position: relative;
+    top: 16px;
+    left: 20px;
+    font-size: 13px;
+    color: rgb(56, 55, 55);
+ }
+ #nam3contry2 i{
+    position: absolute;
+    top: 12px;
+    left: 265px;
+    font-size: 40px;
+    transition: 0.6s;
+ }
+#cityausade2{
+    margin-top: 41px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausade2 i{
+    margin-top: 66px;
+    font-size: 17px;
+}
+#cityausbri2{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausbri2 i{
+    margin-top: 136px;
+    font-size: 17px;
+}
+#cityausmel2{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausmel2 i{
+    margin-top: 204px;
+    font-size: 17px;
+}
+#cityausper2{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausper2 i{
+    margin-top: 275px;
+    font-size: 17px;
+}
+#cityaussyd2{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityaussyd2 i{
+    margin-top: 347px;
+    font-size: 17px;
+}
+#nam3contry3{
+    position: relative;
+    background-color: white;
+    left: 10px;
+    width: 335px;
+    border-bottom: 0.4px solid rgb(178, 174, 174);
+    height: 54px;
+    transition: 1s;
+    /* height: 10px; */
+    overflow: hidden;
+ }
+ /* #namcontrycont1{
+    display: block;
+    transition: 1s;
+  
+ } */
+ #nam3contry3 a{
+    text-decoration: none;
+    position: relative;
+    top: 16px;
+    left: 20px;
+    font-size: 13px;
+    color: rgb(56, 55, 55);
+ }
+ #nam3contry3 i{
+    position: absolute;
+    top: 12px;
+    left: 255px;
+    font-size: 34px;
+    transition: 0.6s;
+ }
+#cityausade3{
+    margin-top: 41px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausade3 i{
+    margin-top: 66px;
+    font-size: 17px;
+}
+#cityausbri3{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausbri3 i{
+    margin-top: 136px;
+    font-size: 17px;
+}
+#cityausmel3{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausmel3 i{
+    margin-top: 204px;
+    font-size: 17px;
+}
+#cityausper3{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausper3 i{
+    margin-top: 275px;
+    font-size: 17px;
+}
+#cityaussyd3{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityaussyd3 i{
+    margin-top: 347px;
+    font-size: 17px;
+}
+#nam3contry4{
+    position: relative;
+    background-color: white;
+    left: 10px;
+    width: 335px;
+    border-bottom: 0.4px solid rgb(178, 174, 174);
+    height: 54px;
+    transition: 1s;
+    /* height: 10px; */
+    overflow: hidden;
+ }
+ /* #namcontrycont1{
+    display: block;
+    transition: 1s;
+  
+ } */
+ #nam3contry4 a{
+    text-decoration: none;
+    position: relative;
+    top: 16px;
+    left: 20px;
+    font-size: 13px;
+    color: rgb(56, 55, 55);
+ }
+ #nam3contry4 i{
+    position: absolute;
+    top: 27px;
+    left: 365px;
+    transition: 0.6s;
+ }
+#cityausade4{
+    margin-top: 41px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausade4 i{
+    margin-top: 66px;
+    font-size: 17px;
+}
+#cityausbri4{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausbri4 i{
+    margin-top: 136px;
+    font-size: 17px;
+}
+#cityausmel4{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausmel4 i{
+    margin-top: 204px;
+    font-size: 17px;
+}
+#cityausper4{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausper4 i{
+    margin-top: 275px;
+    font-size: 17px;
+}
+#cityaussyd4{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityaussyd4 i{
+    margin-top: 347px;
+    font-size: 17px;
+}
+#nam3contry5{
+    position: relative;
+    background-color: white;
+    left: 10px;
+    width: 335px;
+    border-bottom: 0.4px solid rgb(178, 174, 174);
+    height: 54px;
+    transition: 1s;
+    /* height: 10px; */
+    overflow: hidden;
+ }
+ /* #namcontrycont1{
+    display: block;
+    transition: 1s;
+  
+ } */
+ #nam3contry5 a{
+    text-decoration: none;
+    position: relative;
+    top: 16px;
+    left: 20px;
+    font-size: 13px;
+    color: rgb(56, 55, 55);
+ }
+ #nam3contry5 i{
+    position: absolute;
+    top: 27px;
+    left: 365px;
+    transition: 0.6s;
+ }
+#cityausade5{
+    margin-top: 41px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausade5 i{
+    margin-top: 66px;
+    font-size: 17px;
+}
+#cityausbri5{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausbri5 i{
+    margin-top: 136px;
+    font-size: 17px;
+}
+#cityausmel5{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausmel5 i{
+    margin-top: 204px;
+    font-size: 17px;
+}
+#cityausper5{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausper5 i{
+    margin-top: 275px;
+    font-size: 17px;
+}
+#cityaussyd5{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausabc{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausabc2{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausabc3{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausabc4{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityausabc5{
+    margin-top: 5px;
+    width: 400px;
+    height: 65px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#cityaussyd5 i{
+    margin-top: 347px;
+    font-size: 17px;
+}
+#mainmodalbody{
+    height: 360px;
+    overflow: auto;
+}
+#mainmodalbody2{
+    height: 360px;
+    overflow: auto;
+}
+#ddicon1{
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+#ddicon4{
+    width: 73px;
+    height: 30px;
+    position: absolute;
+    right: 8px;
+    top: 15px;
+}
+#ddicon5{
+    width: 78px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+
+
+
+/* <!-----------------------------BARNDS AND MODEL OPTIONs 3------------------------------> */
+
+
+/* <!-----------------------------modal 1 samsung------------------------------> */
+
+#sam1h1{
+    display: none;
+
+}
+#sam1h2{
+    display: none;
+
+}
+#sam1h3{
+    display: none;
+}
+#sam1h4{
+    display: none;
+}
+#sam1im{
+    display: none;
+}
+#sam1pri{
+    display: none;
+
+}
+#sam1dis{
+    display: none;
+
+}
+#sam1BRAND{
+    display: none;
+}
+#sam2h1{
+    display: none;
+
+}
+#sam2h2{
+    display: none;
+
+}
+#sam2h3{
+    display: none;
+}
+#sam2h4{
+    display: none;
+}
+#sam2im{
+    display: none;
+}
+#sam2pri{
+    display: none;
+
+}
+#sam2dis{
+    display: none;
+
+}
+#sam2BRAND{
+    display: none;
+}
+#sam3h1{
+    display: none;
+
+}
+#sam3h2{
+    display: none;
+
+}
+#sam3h3{
+    display: none;
+}
+#sam3h4{
+    display: none;
+}
+#sam3im{
+    display: none;
+}
+#sam3pri{
+    display: none;
+
+}
+#sam3dis{
+    display: none;
+
+}
+#sam3BRAND{
+    display: none;
+}
+
+#sam4h1{
+    display: none;
+
+}
+#sam4h2{
+    display: none;
+
+}
+#sam4h3{
+    display: none;
+}
+#sam4h4{
+    display: none;
+}
+#sam4im{
+    display: none;
+}
+#sam4pri{
+    display: none;
+
+}
+#sam4dis{
+    display: none;
+
+}
+#sam4BRAND{
+    display: none;
+}
+
+#sam5h1{
+    display: none;
+
+}
+#sam5h2{
+    display: none;
+
+}
+#sam5h3{
+    display: none;
+}
+#sam5h4{
+    display: none;
+}
+#sam5im{
+    display: none;
+}
+#sam5pri{
+    display: none;
+
+}
+#sam5dis{
+    display: none;
+
+}
+#sam5BRAND{
+    display: none;
+}
+
+#sam6h1{
+    display: none;
+
+}
+#sam6h2{
+    display: none;
+
+}
+#sam6h3{
+    display: none;
+}
+#sam6h4{
+    display: none;
+}
+#sam6im{
+    display: none;
+}
+#sam6pri{
+    display: none;
+
+}
+#sam6dis{
+    display: none;
+
+}
+#sam6BRAND{
+    display: none;
+}
+
+/* <!-----------------------------modal 1 samsung------------------------------> */
+
+
+
+
+/* <!-----------------------------modal 2 samsung------------------------------> */
+
+#m2sam1h1{
+    display: none;
+
+}
+#m2sam1h2{
+    display: none;
+
+}
+#m2sam1h3{
+    display: none;
+}
+#m2sam1h4{
+    display: none;
+}
+#m2sam1im{
+    display: none;
+}
+#m2sam1pri{
+    display: none;
+
+}
+#m2sam1dis{
+    display: none;
+
+}
+#m2sam1BRAND{
+    display: none;
+}
+#m2sam2h1{
+    display: none;
+
+}
+#m2sam2h2{
+    display: none;
+
+}
+#m2sam2h3{
+    display: none;
+}
+#m2sam2h4{
+    display: none;
+}
+#m2sam2im{
+    display: none;
+}
+#m2sam2pri{
+    display: none;
+
+}
+#m2sam2dis{
+    display: none;
+
+}
+#m2sam2BRAND{
+    display: none;
+}
+#m2sam3h1{
+    display: none;
+
+}
+#m2sam3h2{
+    display: none;
+
+}
+#m2sam3h3{
+    display: none;
+}
+#m2sam3h4{
+    display: none;
+}
+#m2sam3im{
+    display: none;
+}
+#m2sam3pri{
+    display: none;
+
+}
+#m2sam3dis{
+    display: none;
+
+}
+#m2sam3BRAND{
+    display: none;
+}
+
+#m2sam4h1{
+    display: none;
+
+}
+#m2sam4h2{
+    display: none;
+
+}
+#m2sam4h3{
+    display: none;
+}
+#m2sam4h4{
+    display: none;
+}
+#m2sam4im{
+    display: none;
+}
+#m2sam4pri{
+    display: none;
+
+}
+#m2sam4dis{
+    display: none;
+
+}
+#m2sam4BRAND{
+    display: none;
+}
+
+#m2sam5h1{
+    display: none;
+
+}
+#m2sam5h2{
+    display: none;
+
+}
+#m2sam5h3{
+    display: none;
+}
+#m2sam5h4{
+    display: none;
+}
+#m2sam5im{
+    display: none;
+}
+#m2sam5pri{
+    display: none;
+
+}
+#m2sam5dis{
+    display: none;
+
+}
+#m2sam5BRAND{
+    display: none;
+}
+
+#m2sam6h1{
+    display: none;
+
+}
+#m2sam6h2{
+    display: none;
+
+}
+#m2sam6h3{
+    display: none;
+}
+#m2sam6h4{
+    display: none;
+}
+#m2sam6im{
+    display: none;
+}
+#m2sam6pri{
+    display: none;
+
+}
+#m2sam6dis{
+    display: none;
+
+}
+#m2sam6BRAND{
+    display: none;
+}
+
+/* <!-----------------------------modal 2 samsung------------------------------> */
+
+
+
+/* <!-----------------------------modal 3 samsung------------------------------> */
+
+#m3sam1h1{
+    display: none;
+
+}
+#m3sam1h2{
+    display: none;
+
+}
+#m3sam1h3{
+    display: none;
+}
+#m3sam1h4{
+    display: none;
+}
+#m3sam1im{
+    display: none;
+}
+#m3sam1pri{
+    display: none;
+
+}
+#m3sam1dis{
+    display: none;
+
+}
+#m3sam1BRAND{
+    display: none;
+}
+#m3sam2h1{
+    display: none;
+
+}
+#m3sam2h2{
+    display: none;
+
+}
+#m3sam2h3{
+    display: none;
+}
+#m3sam2h4{
+    display: none;
+}
+#m3sam2im{
+    display: none;
+}
+#m3sam2pri{
+    display: none;
+
+}
+#m3sam2dis{
+    display: none;
+
+}
+#m3sam2BRAND{
+    display: none;
+}
+#m3sam3h1{
+    display: none;
+
+}
+#m3sam3h2{
+    display: none;
+
+}
+#m3sam3h3{
+    display: none;
+}
+#m3sam3h4{
+    display: none;
+}
+#m3sam3im{
+    display: none;
+}
+#m3sam3pri{
+    display: none;
+
+}
+#m3sam3dis{
+    display: none;
+
+}
+#m3sam3BRAND{
+    display: none;
+}
+
+#m3sam4h1{
+    display: none;
+
+}
+#m3sam4h2{
+    display: none;
+
+}
+#m3sam4h3{
+    display: none;
+}
+#m3sam4h4{
+    display: none;
+}
+#m3sam4im{
+    display: none;
+}
+#m3sam4pri{
+    display: none;
+
+}
+#m3sam4dis{
+    display: none;
+
+}
+#m3sam4BRAND{
+    display: none;
+}
+
+#m3sam5h1{
+    display: none;
+
+}
+#m3sam5h2{
+    display: none;
+
+}
+#m3sam5h3{
+    display: none;
+}
+#m3sam5h4{
+    display: none;
+}
+#m3sam5im{
+    display: none;
+}
+#m3sam5pri{
+    display: none;
+
+}
+#m3sam5dis{
+    display: none;
+
+}
+#m3sam5BRAND{
+    display: none;
+}
+
+#m3sam6h1{
+    display: none;
+
+}
+#m3sam6h2{
+    display: none;
+
+}
+#m3sam6h3{
+    display: none;
+}
+#m3sam6h4{
+    display: none;
+}
+#m3sam6im{
+    display: none;
+}
+#m3sam6pri{
+    display: none;
+
+}
+#m3sam6dis{
+    display: none;
+
+}
+#m3sam6BRAND{
+    display: none;
+}
+
+/* <!-----------------------------modal 3 samsung------------------------------> */
+
+
+
+
+
+/* <!-----------------------------modal 1 iphone------------------------------> */
+
+
+
+
+#ipho1h1{
+    display: none;
+
+}
+#ipho1h2{
+    display: none;
+
+}
+#ipho1h3{
+    display: none;
+}
+#ipho1h4{
+    display: none;
+}
+#ipho1im{
+    display: none;
+    
+}
+ img{
+    height: 15rem;
+    
+}
+#ipho4im img{
+    width: 100%;
+}
+#ipho6im img{
+    width: 100%;
+}
+#ipho2im img{
+    width: 100%;
+}
+#ipho1pri{
+    display: none;
+
+}
+#ipho1dis{
+    display: none;
+
+}
+#ipho1BRAND{
+    display: none;
+}
+#ipho2h1{
+    display: none;
+
+}
+#ipho2h2{
+    display: none;
+
+}
+#ipho2h3{
+    display: none;
+}
+#ipho2h4{
+    display: none;
+}
+#ipho2im{
+    display: none;
+}
+#ipho2pri{
+    display: none;
+
+}
+#ipho2dis{
+    display: none;
+
+}
+#ipho2BRAND{
+    display: none;
+}
+#ipho3h1{
+    display: none;
+
+}
+#ipho3h2{
+    display: none;
+
+}
+#ipho3h3{
+    display: none;
+}
+#ipho3h4{
+    display: none;
+}
+#ipho3im{
+    display: none;
+}
+#ipho3pri{
+    display: none;
+
+}
+#ipho3dis{
+    display: none;
+
+}
+#ipho3BRAND{
+    display: none;
+}
+
+#ipho4h1{
+    display: none;
+
+}
+#ipho4h2{
+    display: none;
+
+}
+#ipho4h3{
+    display: none;
+}
+#ipho4h4{
+    display: none;
+}
+#ipho4im{
+    display: none;
+}
+#ipho4pri{
+    display: none;
+
+}
+#ipho4dis{
+    display: none;
+
+}
+#ipho4BRAND{
+    display: none;
+}
+
+#ipho5h1{
+    display: none;
+
+}
+#ipho5h2{
+    display: none;
+
+}
+#ipho5h3{
+    display: none;
+}
+#ipho5h4{
+    display: none;
+}
+#ipho5im{
+    display: none;
+}
+#ipho5pri{
+    display: none;
+
+}
+#ipho5dis{
+    display: none;
+
+}
+#ipho5BRAND{
+    display: none;
+}
+
+#ipho6h1{
+    display: none;
+
+}
+#ipho6h2{
+    display: none;
+
+}
+#ipho6h3{
+    display: none;
+}
+#ipho6h4{
+    display: none;
+}
+#ipho6im{
+    display: none;
+}
+#ipho6pri{
+    display: none;
+
+}
+#ipho6dis{
+    display: none;
+
+}
+#ipho6BRAND{
+    display: none;
+}
+
+
+/* <!-----------------------------modal 1 iphone------------------------------> */
+
+
+
+
+
+/* <!-----------------------------modal 2 iphone------------------------------> */
+
+
+
+
+#m2ipho1h1{
+    display: none;
+
+   }
+#m2ipho1h2{
+    display: none;
+   }
+#m2ipho1h3{
+   display: none;
+  }
+#m2ipho1h4{
+   display: none;
+  }
+#m2ipho1im{
+   display: none;
+  
+  }
+ img{
+    height: 15rem;
+    
+   }
+#m2ipho4im img{
+    width: 100%;
+   }
+#m2ipho6im img{
+    width: 100%;
+   }
+#m2ipho2im img{
+    width: 100%;
+   }
+#m2ipho1pri{
+    display: none;
+
+   }
+#m2ipho1dis{
+   display: none;
+
+   }
+#m2ipho1BRAND{
+    display: none;
+   }
+#m2ipho2h1{
+    display: none;
+
+   }
+#m2ipho2h2{
+    display: none;
+
+   }
+#m2ipho2h3{
+   display: none;
+  }
+#m2ipho2h4{
+    display: none;
+   }
+#m2ipho2im{
+    display: none;
+   }
+#m2ipho2pri{
+    display: none;
+
+   }
+#m2ipho2dis{
+   display: none;
+
+   }
+#m2ipho2BRAND{
+   display: none;
+  }
+#m2ipho3h1{
+ display: none;
+  }
+#m2ipho3h2{
+    display: none;
+   }
+#m2ipho3h3{
+    display: none;
+    }
+#m2ipho3h4{
+    display: none;
+  }
+#m2ipho3im{
+   display: none;
+   }
+#m2ipho3pri{
+   display: none;
+
+   }
+#m2ipho3dis{
+    display: none;
+
+   }
+#m2ipho3BRAND{
+    display: none;
+  }
+
+#m2ipho4h1{
+   display: none;
+
+   }
+#m2ipho4h2{
+    display: none;
+
+   }
+#m2ipho4h3{
+    display: none;
+   }
+#m2ipho4h4{
+    display: none;
+   }
+#m2ipho4im{
+    display: none;
+   }
+#m2ipho4pri{
+    display: none;
+
+   }
+#m2ipho4dis{
+   display: none;
+
+   }
+#m2ipho4BRAND{
+    display: none;
+ }
+
+#m2ipho5h1{
+    display: none;
+
+   }
+#m2ipho5h2{
+    display: none;
+
+   }
+#m2ipho5h3{
+    display: none;
+  }
+#m2ipho5h4{
+   display: none;
+  }
+#m2ipho5im{
+    display: none;
+   }
+#m2ipho5pri{
+    display: none;
+
+   }
+#m2ipho5dis{
+    display: none;
+
+   }
+#m2ipho5BRAND{
+    display: none;
+   }
+
+#m2ipho6h1{
+    display: none;
+
+   }
+#m2ipho6h2{
+  display: none;
+
+  }
+#m2ipho6h3{
+    display: none;
+   }
+#m2ipho6h4{
+   display: none;
+   }
+#m2ipho6im{
+    display: none;
+   }
+#m2ipho6pri{
+   display: none;
+
+   }
+#m2ipho6dis{
+   display: none;
+
+  }
+#m2ipho6BRAND{
+   display: none;
+   }
+
+
+/* <!-----------------------------modal 2 iphone------------------------------> */
+
+
+
+
+/* <!-----------------------------modal 3 iphone------------------------------> */
+
+
+
+
+#m3ipho1h1{
+    display: none;
+
+   }
+#m3ipho1h2{
+    display: none;
+   }
+#m3ipho1h3{
+   display: none;
+  }
+#m3ipho1h4{
+   display: none;
+  }
+#m3ipho1im{
+   display: none;
+  
+  }
+ img{
+    height: 15rem;
+    
+   }
+#m3ipho4im img{
+    width: 100%;
+   }
+#m3ipho6im img{
+    width: 100%;
+   }
+#m3ipho2im img{
+    width: 100%;
+   }
+#m3ipho1pri{
+    display: none;
+
+   }
+#m3ipho1dis{
+   display: none;
+
+   }
+#m3ipho1BRAND{
+    display: none;
+   }
+#m3ipho2h1{
+    display: none;
+
+   }
+#m3ipho2h2{
+    display: none;
+
+   }
+#m3ipho2h3{
+   display: none;
+  }
+#m3ipho2h4{
+    display: none;
+   }
+#m3ipho2im{
+    display: none;
+   }
+#m3ipho2pri{
+    display: none;
+
+   }
+#m3ipho2dis{
+   display: none;
+
+   }
+#m3ipho2BRAND{
+   display: none;
+  }
+#m3ipho3h1{
+ display: none;
+  }
+#m3ipho3h2{
+    display: none;
+   }
+#m3ipho3h3{
+    display: none;
+    }
+#m3ipho3h4{
+    display: none;
+  }
+#m3ipho3im{
+   display: none;
+}
+#m3ipho3pri{
+   display: none;
+
+   }
+#m3ipho3dis{
+    display: none;
+
+   }
+#m3ipho3BRAND{
+    display: none;
+  }
+
+#m3ipho4h1{
+   display: none;
+
+   }
+#m3ipho4h2{
+    display: none;
+
+   }
+#m3ipho4h3{
+    display: none;
+   }
+#m3ipho4h4{
+    display: none;
+   }
+#m3ipho4im{
+    display: none;
+   }
+#m3ipho4pri{
+    display: none;
+
+}
+#m3ipho4dis{
+   display: none;
+
+   }
+#m3ipho4BRAND{
+    display: none;
+ }
+
+#m3ipho5h1{
+    display: none;
+
+   }
+#m3ipho5h2{
+    display: none;
+
+   }
+#m3ipho5h3{
+    display: none;
+  }
+#m3ipho5h4{
+   display: none;
+  }
+#m3ipho5im{
+    display: none;
+   }
+#m3ipho5pri{
+    display: none;
+
+   }
+#m3ipho5dis{
+    display: none;
+
+   }
+#m3ipho5BRAND{
+    display: none;
+   }
+
+#m3ipho6h1{
+    display: none;
+
+   }
+#m3ipho6h2{
+  display: none;
+
+  }
+#m3ipho6h3{
+    display: none;
+   }
+#m3ipho6h4{
+   display: none;
+   }
+#m3ipho6im{
+    display: none;
+   }
+#m3ipho6pri{
+   display: none;
+
+   }
+#m3ipho6dis{
+   display: none;
+
+  }
+#m3ipho6BRAND{
+   display: none;
+   }
+
+
+/* <!-----------------------------modal 3 iphone------------------------------> */
+
+
+
+
+
+
+/* <!-----------------------------modal 1 pixel------------------------------> */
+#goo4im img{
+    width: 100%;
+}
+#goo1im img{
+    width: 100%;
+}
+#goo3im img{
+    width: 100%;}
+    #goo5im img{
+        width: 100%;
+    }
+
+#goo1h1{
+    display: none;
+
+}
+#goo1h2{
+    display: none;
+
+}
+#goo1h3{
+    display: none;
+}
+#goo1h4{
+    display: none;
+}
+#goo1im{
+    display: none;
+    
+}
+ img{
+    height: 15rem;
+    
+}
+#goo4im img{
+    width: 100%;
+}
+#goo6im img{
+    width: 100%;
+}
+#goo2im img{
+    width: 100%;
+}
+#goo1pri{
+    display: none;
+
+}
+#goo1dis{
+    display: none;
+
+}
+#goo1BRAND{
+    display: none;
+}
+#goo2h1{
+    display: none;
+
+}
+#goo2h2{
+    display: none;
+
+}
+#goo2h3{
+    display: none;
+}
+#goo2h4{
+    display: none;
+}
+#goo2im{
+    display: none;
+}
+#goo2pri{
+    display: none;
+
+}
+#goo2dis{
+    display: none;
+
+}
+#goo2BRAND{
+    display: none;
+}
+#goo3h1{
+    display: none;
+
+}
+#goo3h2{
+    display: none;
+
+}
+#goo3h3{
+    display: none;
+}
+#goo3h4{
+    display: none;
+}
+#goo3im{
+    display: none;
+}
+#goo3pri{
+    display: none;
+
+}
+#goo3dis{
+    display: none;
+
+}
+#goo3BRAND{
+    display: none;
+}
+
+#goo4h1{
+    display: none;
+
+}
+#goo4h2{
+    display: none;
+
+}
+#goo4h3{
+    display: none;
+}
+#goo4h4{
+    display: none;
+}
+#goo4im{
+    display: none;
+}
+#goo4pri{
+    display: none;
+
+}
+#goo4dis{
+    display: none;
+
+}
+#goo4BRAND{
+    display: none;
+}
+
+#goo5h1{
+    display: none;
+
+}
+#goo5h2{
+    display: none;
+
+}
+#goo5h3{
+    display: none;
+}
+#goo5h4{
+    display: none;
+}
+#goo5im{
+    display: none;
+}
+#goo5pri{
+    display: none;
+
+}
+#goo5dis{
+    display: none;
+
+}
+#goo5BRAND{
+    display: none;
+}
+
+#goo6h1{
+    display: none;
+
+}
+#goo6h2{
+    display: none;
+
+}
+#goo6h3{
+    display: none;
+}
+#goo6h4{
+    display: none;
+}
+#goo6im{
+    display: none;
+}
+#goo6pri{
+    display: none;
+
+}
+#goo6dis{
+    display: none;
+
+}
+#goo6BRAND{
+    display: none;
+}
+
+
+/* <!-----------------------------modal 1 pixel------------------------------> */
+
+
+
+/* <!-----------------------------modal 2 pixel------------------------------> */
+
+#m2goo4im img{
+    width: 100%;
+}
+#m2goo1im img{
+    width: 100%;
+}
+#m2goo3im img{
+    width: 100%;}
+    #goo5im img{
+        width: 100%;
+    }
+
+#m2goo1h1{
+    display: none;
+
+}
+#m2goo1h2{
+    display: none;
+
+}
+#m2goo1h3{
+    display: none;
+}
+#m2goo1h4{
+    display: none;
+}
+#m2goo1im{
+    display: none;
+    
+}
+ img{
+    height: 15rem;
+    
+}
+#m2goo4im img{
+    width: 100%;
+}
+#m2goo6im img{
+    width: 100%;
+}
+#m2goo2im img{
+    width: 100%;
+}
+#m2goo1pri{
+    display: none;
+
+}
+#m2goo1dis{
+    display: none;
+
+}
+#m2goo1BRAND{
+    display: none;
+}
+#m2goo2h1{
+    display: none;
+
+}
+#m2goo2h2{
+    display: none;
+
+}
+#m2goo2h3{
+    display: none;
+}
+#m2goo2h4{
+    display: none;
+}
+#m2goo2im{
+    display: none;
+}
+#m2goo2pri{
+    display: none;
+
+}
+#m2goo2dis{
+    display: none;
+
+}
+#m2goo2BRAND{
+    display: none;
+}
+#m2goo3h1{
+    display: none;
+
+}
+#m2goo3h2{
+    display: none;
+
+}
+#m2goo3h3{
+    display: none;
+}
+#m2goo3h4{
+    display: none;
+}
+#m2goo3im{
+    display: none;
+}
+#m2goo3pri{
+    display: none;
+
+}
+#m2goo3dis{
+    display: none;
+
+}
+#m2goo3BRAND{
+    display: none;
+}
+
+#m2goo4h1{
+    display: none;
+
+}
+#m2goo4h2{
+    display: none;
+
+}
+#m2goo4h3{
+    display: none;
+}
+#m2goo4h4{
+    display: none;
+}
+#m2goo4im{
+    display: none;
+}
+#m2goo4pri{
+    display: none;
+
+}
+#m2goo4dis{
+   display: none;
+
+}
+#m2goo4BRAND{
+    display: none;
+}
+
+#m2goo5h1{
+    display: none;
+
+}
+#m2goo5h2{
+    display: none;
+
+}
+#m2goo5h3{
+    display: none;
+}
+#m2goo5h4{
+    display: none;
+}
+#m2goo5im{
+    display: none;
+}
+#m2goo5pri{
+    display: none;
+
+}
+#m2goo5dis{
+    display: none;
+
+}
+#m2goo5BRAND{
+    display: none;
+}
+
+#m2goo6h1{
+    display: none;
+
+}
+#m2goo6h2{
+    display: none;
+
+}
+#m2goo6h3{
+    display: none;
+}
+#m2goo6h4{
+    display: none;
+}
+#m2goo6im{
+    display: none;
+}
+#m2goo6pri{
+    display: none;
+
+}
+#m2goo6dis{
+    display: none;
+
+}
+#m2goo6BRAND{
+    display: none;
+}
+
+
+/* <!-----------------------------modal 2 pixel------------------------------> */
+
+
+
+/* <!-----------------------------modal 3 pixel------------------------------> */
+
+#m3goo4im img{
+    width: 100%;
+}
+#m3goo1im img{
+    width: 100%;
+}
+#m3goo3im img{
+    width: 100%;}
+    #goo5im img{
+        width: 100%;
+    }
+
+#m3goo1h1{
+    display: none;
+
+}
+#m3goo1h2{
+    display: none;
+
+}
+#m3goo1h3{
+    display: none;
+}
+#m3goo1h4{
+    display: none;
+}
+#m3goo1im{
+    display: none;
+    
+}
+ img{
+    height: 15rem;
+    
+}
+#m3goo4im img{
+ width: 100%;
+}
+#m3goo6im img{
+    width: 100%;
+}
+#m3goo2im img{
+    width: 100%;
+}
+#m3goo1pri{
+    display: none;
+
+}
+#m3goo1dis{
+    display: none;
+
+}
+#m3goo1BRAND{
+    display: none;
+}
+#m3goo2h1{
+    display: none;
+
+}
+#m3goo2h2{
+    display: none;
+
+}
+#m3goo2h3{
+    display: none;
+}
+#m3goo2h4{
+    display: none;
+}
+#m3goo2im{
+ display: none;
+}
+#m3goo2pri{
+    display: none;
+
+}
+#m3goo2dis{
+    display: none;
+
+}
+#m3goo2BRAND{
+    display: none;
+}
+#m3goo3h1{
+    display: none;
+
+}
+#m3goo3h2{
+    display: none;
+
+}
+#m3goo3h3{
+    display: none;
+}
+#m3goo3h4{
+    display: none;
+}
+#m3goo3im{
+    display: none;
+}
+#m3goo3pri{
+    display: none;
+
+}
+#m3goo3dis{
+    display: none;
+
+}
+#m3goo3BRAND{
+    display: none;
+}
+
+#m3goo4h1{
+    display: none;
+
+}
+#m3goo4h2{
+    display: none;
+
+}
+#m3goo4h3{
+    display: none;
+}
+#m3goo4h4{
+    display: none;
+}
+#m3goo4im{
+    display: none;
+}
+#m3goo4pri{
+    display: none;
+
+}
+#m3goo4dis{
+   display: none;
+
+}
+#m3goo4BRAND{
+    display: none;
+}
+
+#m3goo5h1{
+    display: none;
+
+}
+#m3goo5h2{
+    display: none;
+
+}
+#m3goo5h3{
+    display: none;
+}
+#m3goo5h4{
+    display: none;
+}
+#m3goo5im{
+    display: none;
+}
+#m3goo5pri{
+    display: none;
+
+}
+#m3goo5dis{
+    display: none;
+
+}
+#m3goo5BRAND{
+    display: none;
+}
+
+#m3goo6h1{
+    display: none;
+
+}
+#m3goo6h2{
+    display: none;
+
+}
+#m3goo6h3{
+    display: none;
+}
+#m3goo6h4{
+    display: none;
+}
+#m3goo6im{
+    display: none;
+}
+#m3goo6pri{
+    display: none;
+
+}
+#m3goo6dis{
+    display: none;
+
+}
+#m3goo6BRAND{
+    display: none;
+}
+
+
+/* <!-----------------------------modal 3 pixel------------------------------> */
+
+
+
+
+ /* <!-----------------------------modal 1 nokia------------------------------> */
+
+ #nok5im img{
+    width: 100%;
+}
+#nok6im img{
+    width: 100%;
+}
+#nok4im img{
+    width: 100%;}
+    #nok1im img{
+        width: 100%;}
+    
+
+
+
+   #nok1h1{
+    display: none;
+
+}
+#nok1h2{
+    display: none;
+
+}
+#nok1h3{
+    display: none;
+}
+#nok1h4{
+    display: none;
+}
+#nok1im{
+    display: none;
+}
+#nok1pri{
+    display: none;
+
+}
+#nok1dis{
+    display: none;
+
+}
+#nok1BRAND{
+    display: none;
+}
+#nok2h1{
+    display: none;
+
+}
+#nok2h2{
+    display: none;
+
+}
+#nok2h3{
+    display: none;
+}
+#nok2h4{
+    display: none;
+}
+#nok2im{
+    display: none;
+}
+#nok2pri{
+    display: none;
+
+}
+#nok2dis{
+    display: none;
+
+}
+#nok2BRAND{
+    display: none;
+}
+#nok3h1{
+    display: none;
+
+}
+#nok3h2{
+    display: none;
+
+}
+#nok3h3{
+    display: none;
+}
+#nok3h4{
+    display: none;
+}
+#nok3im{
+    display: none;
+}
+#nok3pri{
+    display: none;
+
+}
+#nok3dis{
+    display: none;
+
+}
+#nok3BRAND{
+    display: none;
+}
+
+#nok4h1{
+    display: none;
+
+}
+#nok4h2{
+    display: none;
+
+}
+#nok4h3{
+    display: none;
+}
+#nok4h4{
+    display: none;
+}
+#nok4im{
+    display: none;
+}
+#nok4pri{
+    display: none;
+
+}
+#nok4dis{
+    display: none;
+
+}
+#nok4BRAND{
+    display: none;
+}
+
+#nok5h1{
+    display: none;
+
+}
+#nok5h2{
+    display: none;
+
+}
+#nok5h3{
+    display: none;
+}
+#nok5h4{
+    display: none;
+}
+#nok5im{
+    display: none;
+}
+#nok5pri{
+    display: none;
+
+}
+#nok5dis{
+    display: none;
+}
+#nok5BRAND{
+    display: none;
+}
+
+#nok6h1{
+    display: none;
+
+}
+#nok6h2{
+    display: none;
+
+}
+#nok6h3{
+    display: none;
+}
+#nok6h4{
+    display: none;
+}
+#nok6im{
+    display: none;
+}
+#nok6pri{
+    display: none;
+
+}
+#nok6dis{
+    display: none;
+
+}
+#nok6BRAND{
+    display: none;
+}
+
+
+
+
+
+   /* <!-----------------------------modal 1 nokia------------------------------> */
+
+
+
+   /* <!-----------------------------modal 2 nokia------------------------------> */
+
+   #m2nok5im img{
+    width: 100%;
+}
+#m2nok6im img{
+    width: 100%;
+}
+#m2nok4im img{
+    width: 100%;}
+    #nok1im img{
+        width: 100%;}
+    
+
+
+
+   #m2nok1h1{
+    display: none;
+
+}
+#m2nok1h2{
+    display: none;
+
+}
+#m2nok1h3{
+    display: none;
+}
+#m2nok1h4{
+    display: none;
+}
+#m2nok1im{
+    display: none;
+}
+#m2nok1pri{
+    display: none;
+
+}
+#m2nok1dis{
+    display: none;
+
+}
+#m2nok1BRAND{
+    display: none;
+}
+#m2nok2h1{
+    display: none;
+
+}
+#m2nok2h2{
+    display: none;
+
+}
+#m2nok2h3{
+    display: none;
+}
+#m2nok2h4{
+    display: none;
+}
+#m2nok2im{
+    display: none;
+}
+#m2nok2pri{
+    display: none;
+
+}
+#m2nok2dis{
+    display: none;
+
+}
+#m2nok2BRAND{
+    display: none;
+}
+#m2nok3h1{
+    display: none;
+
+}
+#m2nok3h2{
+    display: none;
+
+}
+#m2nok3h3{
+    display: none;
+}
+#m2nok3h4{
+    display: none;
+}
+#m2nok3im{
+    display: none;
+}
+#m2nok3pri{
+    display: none;
+
+}
+#m2nok3dis{
+    display: none;
+
+}
+#m2nok3BRAND{
+    display: none;
+}
+
+#m2nok4h1{
+    display: none;
+
+}
+#m2nok4h2{
+    display: none;
+
+}
+#m2nok4h3{
+    display: none;
+}
+#m2nok4h4{
+    display: none;
+}
+#m2nok4im{
+    display: none;
+}
+#m2nok4pri{
+    display: none;
+
+}
+#m2nok4dis{
+    display: none;
+
+}
+#m2nok4BRAND{
+    display: none;
+}
+
+#m2nok5h1{
+    display: none;
+
+}
+#m2nok5h2{
+    display: none;
+
+}
+#m2nok5h3{
+    display: none;
+}
+#m2nok5h4{
+    display: none;
+}
+#m2nok5im{
+    display: none;
+}
+#m2nok5pri{
+    display: none;
+
+}
+#m2nok5dis{
+    display: none;
+}
+#m2nok5BRAND{
+    display: none;
+}
+
+#m2nok6h1{
+    display: none;
+
+}
+#m2nok6h2{
+    display: none;
+
+}
+#m2nok6h3{
+    display: none;
+}
+#m2nok6h4{
+    display: none;
+}
+#m2nok6im{
+    display: none;
+}
+#m2nok6pri{
+    display: none;
+
+}
+#m2nok6dis{
+    display: none;
+
+}
+#m2nok6BRAND{
+    display: none;
+}
+
+
+
+
+
+   /* <!-----------------------------modal 2 nokia------------------------------> */
+
+
+
+  /* <!-----------------------------modal 3 nokia------------------------------> */
+
+  #m3nok5im img{
+    width: 100%;
+}
+#m3nok6im img{
+    width: 100%;
+}
+#m3nok4im img{
+    width: 100%;}
+    #nok1im img{
+        width: 100%;}
+    
+
+
+
+   #m3nok1h1{
+    display: none;
+
+}
+#m3nok1h2{
+    display: none;
+
+}
+#m3nok1h3{
+    display: none;
+}
+#m3nok1h4{
+    display: none;
+}
+#m3nok1im{
+    display: none;
+}
+#m3nok1pri{
+    display: none;
+
+}
+#m3nok1dis{
+    display: none;
+
+}
+#m3nok1BRAND{
+    display: none;
+}
+#m3nok2h1{
+    display: none;
+
+}
+#m3nok2h2{
+    display: none;
+
+}
+#m3nok2h3{
+    display: none;
+}
+#m3nok2h4{
+    display: none;
+}
+#m3nok2im{
+    display: none;
+}
+#m3nok2pri{
+    display: none;
+
+}
+#m3nok2dis{
+    display: none;
+
+}
+#m3nok2BRAND{
+    display: none;
+}
+#m3nok3h1{
+    display: none;
+
+}
+#m3nok3h2{
+    display: none;
+
+}
+#m3nok3h3{
+    display: none;
+}
+#m3nok3h4{
+    display: none;
+}
+#m3nok3im{
+    display: none;
+}
+#m3nok3pri{
+    display: none;
+
+}
+#m3nok3dis{
+    display: none;
+
+}
+#m3nok3BRAND{
+    display: none;
+}
+
+#m3nok4h1{
+    display: none;
+
+}
+#m3nok4h2{
+    display: none;
+
+}
+#m3nok4h3{
+    display: none;
+}
+#m3nok4h4{
+    display: none;
+}
+#m3nok4im{
+    display: none;
+}
+#m3nok4pri{
+    display: none;
+
+}
+#m3nok4dis{
+    display: none;
+
+}
+#m3nok4BRAND{
+    display: none;
+}
+
+#m3nok5h1{
+    display: none;
+
+}
+#m3nok5h2{
+    display: none;
+
+}
+#m3nok5h3{
+    display: none;
+}
+#m3nok5h4{
+    display: none;
+}
+#m3nok5im{
+    display: none;
+}
+#m3nok5pri{
+    display: none;
+
+}
+#m3nok5dis{
+    display: none;
+}
+#m3nok5BRAND{
+    display: none;
+}
+#m3nok6h1{
+    display: none;
+
+}
+#m3nok6h2{
+    display: none;
+
+}
+#m3nok6h3{
+    display: none;
+}
+#m3nok6h4{
+    display: none;
+}
+#m3nok6im{
+    display: none;
+}
+#m3nok6pri{
+    display: none;
+
+}
+#m3nok6dis{
+    display: none;
+
+}
+#m3nok6BRAND{
+    display: none;
+}
+
+
+
+
+
+   /* <!-----------------------------modal 3 nokia------------------------------> */
+
+
+
+    /* <!-----------------------------modal 1 redmi------------------------------> */
+
+    #red5im img{
+        width: 100%;
+    }
+    /* #red6im img{
+        width: 100%;
+    }
+    #red2im img{
+        width: 100%;} */
+
+
+    #red1h1{
+        display: none;
+    
+    }
+    #red1h2{
+        display: none;
+    
+    }
+    #red1h3{
+        display: none;
+    }
+    #red1h4{
+        display: none;
+    }
+    #red1im{
+        display: none;
+    }
+    #red1pri{
+        display: none;
+    
+    }
+    #red1dis{
+        display: none;
+    
+    }
+    #red1BRAND{
+        display: none;
+    }
+    #red2h1{
+        display: none;
+    
+    }
+    #red2h2{
+        display: none;
+    
+    }
+    #red2h3{
+        display: none;
+    }
+    #red2h4{
+        display: none;
+    }
+    #red2im{
+        display: none;
+    }
+    #red2pri{
+        display: none;
+    
+    }
+    #red2dis{
+        display: none;
+    
+    }
+    #red2BRAND{
+        display: none;
+    }
+    #red3h1{
+        display: none;
+    
+    }
+    #red3h2{
+        display: none;
+    
+    }
+    #red3h3{
+        display: none;
+    }
+    #red3h4{
+        display: none;
+    }
+    #red3im{
+        display: none;
+    }
+    #red3pri{
+        display: none;
+    
+    }
+    #red3dis{
+        display: none;
+    
+    }
+    #red3BRAND{
+        display: none;
+    }
+    
+    #red4h1{
+        display: none;
+    
+    }
+    #red4h2{
+        display: none;
+    
+    }
+    #red4h3{
+        display: none;
+    }
+    #red4h4{
+        display: none;
+    }
+    #red4im{
+        display: none;
+    }
+    #red4pri{
+        display: none;
+    
+    }
+    #red4dis{
+        display: none;
+    
+    }
+    #red4BRAND{
+        display: none;
+    }
+    
+    #red5h1{
+        display: none;
+    
+    }
+    #red5h2{
+        display: none;
+    
+    }
+    #red5h3{
+        display: none;
+    }
+    #red5h4{
+        display: none;
+    }
+    #red5im{
+        display: none;
+    }
+    #red5pri{
+        display: none;
+    
+    }
+    #red5dis{
+        display: none;
+    }
+    #red5BRAND{
+        display: none;
+    }
+    
+    #red6h1{
+        display: none;
+    
+    }
+    #red6h2{
+        display: none;
+    
+    }
+    #red6h3{
+        display: none;
+    }
+    #red6h4{
+        display: none;
+    }
+    #red6im{
+        display: none;
+    }
+    #red6pri{
+        display: none;
+    
+    }
+    #red6dis{
+        display: none;
+    
+    }
+    #red6BRAND{
+        display: none;
+    } 
+
+     /* <!-----------------------------modal 1 redmi------------------------------> */
+
+
+
+      /* <!-----------------------------modal 2 redmi------------------------------> */
+
+    #m2red5im img{
+        width: 100%;
+    }
+    /* #red6im img{
+        width: 100%;
+    }
+    #red2im img{
+        width: 100%;} */
+
+
+    #m2red1h1{
+        display: none;
+    
+    }
+    #m2red1h2{
+        display: none;
+    
+    }
+    #m2red1h3{
+        display: none;
+    }
+    #m2red1h4{
+        display: none;
+    }
+    #m2red1im{
+        display: none;
+    }
+    #m2red1pri{
+        display: none;
+    
+    }
+    #m2red1dis{
+        display: none;
+    
+    }
+    #m2red1BRAND{
+        display: none;
+    }
+    #m2red2h1{
+        display: none;
+    
+    }
+    #m2red2h2{
+        display: none;
+    
+    }
+    #m2red2h3{
+        display: none;
+    }
+    #m2red2h4{
+        display: none;
+    }
+    #m2red2im{
+        display: none;
+    }
+    #m2red2pri{
+        display: none;
+    
+    }
+    #m2red2dis{
+        display: none;
+    
+    }
+    #m2red2BRAND{
+        display: none;
+    }
+    #m2red3h1{
+        display: none;
+    
+    }
+    #m2red3h2{
+        display: none;
+    
+    }
+    #m2red3h3{
+        display: none;
+    }
+    #m2red3h4{
+        display: none;
+    }
+    #m2red3im{
+        display: none;
+    }
+    #m2red3pri{
+        display: none;
+    
+    }
+    #m2red3dis{
+        display: none;
+    
+    }
+    #m2red3BRAND{
+        display: none;
+    }
+    
+    #m2red4h1{
+        display: none;
+    
+    }
+    #m2red4h2{
+        display: none;
+    
+    }
+    #m2red4h3{
+        display: none;
+    }
+    #m2red4h4{
+        display: none;
+    }
+    #m2red4im{
+        display: none;
+    }
+    #m2red4pri{
+        display: none;
+    
+    }
+    #m2red4dis{
+        display: none;
+    
+    }
+    #m2red4BRAND{
+        display: none;
+    }
+    
+    #m2red5h1{
+        display: none;
+    
+    }
+    #m2red5h2{
+        display: none;
+    
+    }
+    #m2red5h3{
+        display: none;
+    }
+    #m2red5h4{
+        display: none;
+    }
+    #m2red5im{
+        display: none;
+    }
+    #m2red5pri{
+        display: none;
+    
+    }
+    #m2red5dis{
+        display: none;
+    }
+    #m2red5BRAND{
+        display: none;
+    }
+    
+    #m2red6h1{
+        display: none;
+    
+    }
+    #m2red6h2{
+        display: none;
+    
+    }
+    #m2red6h3{
+        display: none;
+    }
+    #m2red6h4{
+        display: none;
+    }
+    #m2red6im{
+        display: none;
+    }
+    #m2red6pri{
+        display: none;
+    
+    }
+    #m2red6dis{
+        display: none;
+    
+    }
+    #m2red6BRAND{
+        display: none;
+    } 
+
+     /* <!-----------------------------modal 2 redmi------------------------------> */
+
+
+
+       /* <!-----------------------------modal 3 redmi------------------------------> */
+
+    #m3red5im img{
+        width: 100%;
+    }
+    /* #red6im img{
+        width: 100%;
+    }
+    #red2im img{
+        width: 100%;} */
+
+
+    #m3red1h1{
+        display: none;
+    
+    }
+    #m3red1h2{
+        display: none;
+    
+    }
+    #m3red1h3{
+        display: none;
+    }
+    #m3red1h4{
+        display: none;
+    }
+    #m3red1im{
+        display: none;
+    }
+    #m3red1pri{
+        display: none;
+    
+    }
+    #m3red1dis{
+        display: none;
+    
+    }
+    #m3red1BRAND{
+        display: none;
+    }
+    #m3red2h1{
+        display: none;
+    
+    }
+    #m3red2h2{
+        display: none;
+    
+    }
+    #m3red2h3{
+        display: none;
+    }
+    #m3red2h4{
+        display: none;
+    }
+    #m3red2im{
+        display: none;
+    }
+    #m3red2pri{
+        display: none;
+    
+    }
+    #m3red2dis{
+        display: none;
+    
+    }
+    #m3red2BRAND{
+        display: none;
+    }
+    #m3red3h1{
+        display: none;
+    
+    }
+    #m3red3h2{
+        display: none;
+    
+    }
+    #m3red3h3{
+        display: none;
+    }
+    #m3red3h4{
+        display: none;
+    }
+    #m3red3im{
+        display: none;
+    }
+    #m3red3pri{
+        display: none;
+    
+    }
+    #m3red3dis{
+        display: none;
+    
+    }
+    #m3red3BRAND{
+        display: none;
+    }
+    
+    #m3red4h1{
+        display: none;
+    
+    }
+    #m3red4h2{
+        display: none;
+    
+    }
+    #m3red4h3{
+        display: none;
+    }
+    #m3red4h4{
+        display: none;
+    }
+    #m3red4im{
+        display: none;
+    }
+    #m3red4pri{
+        display: none;
+    
+    }
+    #m3red4dis{
+        display: none;
+    
+    }
+    #m3red4BRAND{
+        display: none;
+    }
+    
+    #m3red5h1{
+        display: none;
+    
+    }
+    #m3red5h2{
+        display: none;
+    
+    }
+    #m3red5h3{
+        display: none;
+    }
+    #m3red5h4{
+        display: none;
+    }
+    #m3red5im{
+        display: none;
+    }
+    #m3red5pri{
+        display: none;
+    
+    }
+    #m3red5dis{
+        display: none;
+    }
+    #m3red5BRAND{
+        display: none;
+    }
+    
+    #m3red6h1{
+        display: none;
+    
+    }
+    #m3red6h2{
+        display: none;
+    
+    }
+    #m3red6h3{
+        display: none;
+    }
+    #m3red6h4{
+        display: none;
+    }
+    #m3red6im{
+        display: none;
+    }
+    #m3red6pri{
+        display: none;
+    
+    }
+    #m3red6dis{
+        display: none;
+    
+    }
+    #m3red6BRAND{
+        display: none;
+    } 
+
+     /* <!-----------------------------modal 3 redmi------------------------------> */
+
+
+
+
+
+td #img1{
+    height: 10rem;
+}
+#imghtr{
+    height: 11.1rem;
+}
+td #img2{
+    height: 10rem;
+}
+td #img3{
+    height: 10rem;
+}
+#head1{
+    color: grey;
+    background-color: linear-gradiant( rgb(6, 89, 171),rgb(108, 106, 106));
+}
+#mainrow{
+    height: 700px;
+}
+#mainmodalbody3{
+    height: 360px;
+    overflow: auto;
+}
+#mainmodalbody3::-webkit-scrollbar{
+    width: 0;
+}
+
+#m3red3im img{
+    width: 100%;
+}
+
+#m3nok1im img{
+    width: 100%;
+}
+#m3goo5im img{
+    width: 100%;
+}
+#nam3contry a{
+    margin-right: 320px;
+}
+#nam3contry2 a{
+    margin-right: 320px;
+}
+#nam3contry3 a{
+    margin-right: 320px;
+}
+#nam3contry4 a{
+    margin-right: 320px;
+}
+#nam3contry5 a{
+    margin-right: 320px;
+}
+#nam2contry a{
+    margin-right: 320px;
+}
+#nam2contry2 a{
+    margin-right: 320px;
+}
+#nam2contry3 a{
+    margin-right: 320px;
+}
+#nam2contry4 a{
+    margin-right: 320px;
+}
+#nam2contry5 a{
+    margin-right: 320px;
+}

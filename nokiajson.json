@@ -1,0 +1,56 @@
+[
+    {
+        "iphonelink":"nokg42.html",
+        "iphonepic":"nokiaimg/Nokia g42.jpg",
+        "iphonename":"Nokia G42",
+        "iphoneprice":"$325"
+        
+    },
+
+
+    {
+        "iphonelink":"nokc21.html",
+        "iphonepic":"nokiaimg/Nokiac21.jpg",
+        "iphonename":"Nokia C21",
+        "iphoneprice":"$89.99"
+    },
+
+
+
+    {
+        "iphonelink":"nokc31.html",
+        "iphonepic":"nokiaimg/nokiac31.jpg",
+        "iphonename":"Nokia C31",
+        "iphoneprice":"$129"
+    },
+
+
+
+    {
+        "iphonelink":"nokg21.html",
+        "iphonepic":"nokiaimg/nokiag21.jpg",
+        "iphonename":"Nokia G21",
+        "iphoneprice":"$289"
+    },
+
+
+
+    {
+        "iphonelink":"nokx30.html",
+        "iphonepic":"nokiaimg/nokiax30.png",
+        "iphonename":"Nokia X30",
+        "iphoneprice":"$540"
+    },
+    {
+        "iphonelink":"nokc300.html",
+        "iphonepic":"nokiaimg/NokiaC300.jpg",
+        "iphonename":"Nokia C300",
+        "iphoneprice":"$139"
+    }
+
+
+
+]
+
+
+

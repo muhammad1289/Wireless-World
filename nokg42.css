@@ -1,0 +1,593 @@
+/* navbar here start */
+#subnavbar ul li a{
+  color: #000;
+  font-family: Gill Sans Nova;
+}
+#mannav{
+  height: 78px;
+}
+
+#togl-icon2{
+  position: relative;
+}
+#logo2 img{
+   position: absolute;
+  left: 150px; 
+  top: 5px;
+  height: 60px;
+  width: 190px;
+ filter: contrast(2);
+  
+}
+.offcanvas-title{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.offcanvas-title img{
+  height: 80px;
+  width: 240px;
+}
+.offcanvas-body::-webkit-scrollbar{
+  width: 0;
+}
+#signbtn{
+  padding: 5px;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border: none;
+  outline: none;
+  position: absolute;
+  right: 59px;
+  transition: 0.3s;
+}
+#signbtn:hover{
+  background-color: rgb(85, 84, 84);
+  color: white;
+}
+#logbtn{
+  padding: 5px;
+  background-color: whitesmoke;
+  color: rgb(55, 54, 54);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+ position: relative;
+ transition: 0.3s;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-weight: 700;
+}
+#logbtn:hover{
+   background-color: rgb(70, 70, 70);
+  color: whitesmoke;
+}
+.loginbtns2{
+  display: none;
+  position: fixed;
+}
+@media (max-width:867px) {
+  #searchbar {
+    display: none;
+  }
+  #searchbar2 {
+    display: block;
+  }
+  #searchbar input {
+    display: none;
+  }
+  #searchbar2 input {
+    display: block;
+  }
+  #searchbar button {
+    display: none;
+  }
+  #searchbar2 button {
+    display: block;
+  }
+  #subnav{
+    top: 50px;
+  }
+  #logo2 img{
+    height: 40px;
+    width: 165px;
+    margin-top: 10px !important;
+    margin-left: 29px !important;
+  }
+}  
+@media (min-width:867px){
+  #searchbar2 {
+    display: none;
+  }
+  #searchbar2 input{
+    display: none;
+  }
+  #searchbar2 button {
+    display: none;
+}}
+@media (max-width:576px) {
+  #logbtn{
+    display: none;
+  }
+  .loginbtns2{
+    display: block;
+  }
+}
+/* navbra end here */
+/* banner */
+#banner img{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 680px;
+  top: 0;
+  filter: brightness(0.7);
+}
+#team-text{
+  position: absolute;
+  top: 0;
+  color: #f0f0f0;
+}
+#team-text h1{
+  margin-top: 20rem;
+  font-size: 53px;
+  font-weight: bolder;
+  color: #f0f0f0;
+  text-transform: uppercase;
+  font-family: Gill Sans Nova;
+}
+#banner h1{
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+  #nokia{
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    font-family: 'horizon' sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #ffff;
+    margin-top: 14rem;
+  }
+ 
+   #model{
+    width: 9rem;
+    height: 10rem;
+    cursor: pointer;
+   }
+  /* <!---------------------------------------------------navbar again-----------------------------------------------> */
+ 
+#togl-icon2{
+  position: relative;
+}
+#logo2 img{
+   position: absolute;
+  left: 110px; 
+  top: 5px;
+  height: 60px;
+  width: 190px;
+ filter: contrast(2);
+  
+}
+
+.offcanvas-title{
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.offcanvas-title img{
+  
+  
+  height: 80px;
+  width: 240px;
+}
+.offcanvas-body::-webkit-scrollbar{
+  width: 0;
+}
+#signbtn{
+
+  width: 90px;
+  height: 40px;
+  background-color: white;
+
+border: none;
+outline: none;
+border-radius: 10px;
+  position: absolute;
+  right: 129px;
+  top: 23px;
+ font-size: 15px;
+ font-weight: bold;
+}
+
+
+#signbtn a{
+  text-decoration: none;
+  color: #000;
+}
+
+#logbtn{
+ width: 95px;
+  height: 40px;
+  border: none;
+outline: none;
+border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  top: 8px;
+  right: 19px;
+ position: relative;
+}
+#logbtn a{
+  text-decoration: none;
+  color: white;
+}
+#signbtn2{
+  width: 90px;
+  height: 40px;
+  background-color: rgb(11, 214, 249);
+border: none;
+outline: none;
+border-radius: 10px;
+  position: absolute;
+  right: 129px;
+  top: 35.5rem;
+ font-size: 15px;
+ font-weight: bold;
+}
+#signbtn2 a{
+  text-decoration: none;
+  color: #000;
+}
+#logbtn2{
+ width: 90px;
+  height: 40px;
+  border: none;
+outline: none;
+border-radius: 10px;
+  background-color: rgb(85, 84, 84);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  top: 7px;
+  left: 40px;
+ position: relative;
+}
+#logbtn2 a{
+  text-decoration: none;
+  color: white;
+}
+/* <----------------------subnav--------------------> */
+/* #subnav{
+  height: 60px;
+  border: 0.5px black solid;
+  background-color:  rgba(248, 249, 238, 0.363);
+  position: fixed;
+  top: 70px;
+  border-bottom-left-radius:40px ;
+  border-bottom-right-radius:40px ;
+  overflow-y: hidden;
+  z-index: 3;
+}
+#subnav::-webkit-scrollbar{
+  width: 0;
+}
+#comp1{
+  position: absolute;
+  top: 5px;
+  left: 95px;
+}
+#comp1 img{
+  height: 34px; 
+}
+#comp2{
+  position: absolute;
+  top: 4px;
+  left: 270px;
+}
+
+#comp2 img{
+  height: 34px;
+  
+}
+
+#comp3{
+  position: absolute;
+  top: 8px;
+  left: 520px;
+}
+#comp3 img{
+  height: 34px;
+  
+}
+#comp4{
+  position: absolute;
+  top: 8px;
+  left: 770px;
+}
+#comp4 img{
+  height: 34px;
+}
+#comp5{
+  position: absolute;
+  top: -26px;
+  left: 950px;
+}
+#comp5 img{
+  height: 104px;
+  
+}
+#subb ul li a{
+  color: #000;
+} */
+
+@media (max-width:867px) {
+  #searchbar {
+    display: none;
+  }
+  #signbtn {
+    display: none;
+  }
+
+  #logbtn {
+    display: none;
+  }
+  #signbtn2 {
+    display: block;
+  }
+  #logbtn2 {
+    display: block;
+  }
+  #searchbar2 {
+    display: block;
+  }
+  #searchbar input {
+    display: none;
+  }
+  #searchbar2 input {
+    display: block;
+  }
+  #searchbar button {
+    display: none;
+  }
+  #searchbar2 button {
+    display: block;
+  }
+  #subnav{
+    top: 50px;
+  }
+  #logo2 img{
+    height: 40px;
+    width: 165px;
+  }
+}  
+@media (min-width:867px){
+  #searchbar2 {
+    display: none;
+  }
+  #searchbar2 input{
+    display: none;
+  }
+  #searchbar2 button {
+    display: none;
+}
+#signbtn2 {
+  display: none;
+}
+
+#logbtn2 {
+  display: none;
+}
+
+} */
+/* <----------------------subnav--------------------> */                                                                css code for nav bar
+
+  
+   /* <------------------------------------------header section start------------------------------------------------> */
+   #colorslection{
+    width: 100%;
+    height: 90px;
+    display: flex;
+   }
+   /* #mainpicdiv button{
+    position: absolute;
+    bottom: 1px;
+   } */
+    #pic1 {
+     width: 30px;
+     height: 30px;
+     background-color: #000000b6;
+     position: absolute;
+     bottom:30px;
+     left: 100px; 
+     border-radius: 50%;
+   }
+   #pic2 {
+    width: 30px;
+    height: 30px;
+    background-color: #2a7472;
+    position: absolute;
+    bottom:30px;
+    left: 150px; 
+    border-radius: 50%;
+   
+  }
+   #pic3 {
+    width: 30px;
+    height:30px;
+    background-color:  #f50aca;
+    position: absolute;
+    bottom:30px;
+    left: 190px; 
+    border-radius: 50%;
+  }
+
+   #showpic{
+    border: 2px solid;
+    margin: 10px;
+    height: 300px;
+    position: relative;
+   }
+  
+   #shopic1{
+    display: block;
+   }
+   
+   #shopic2{
+     display: none;
+   }
+   #shopic3{
+    display: none;
+   }
+   #shopic4{
+    display: none;
+   }
+   #colorslection img{
+    width: 75%;
+    height: 53%;
+    
+    filter: drop-shadow(0 25px 25px #0009);
+    transition: 1s;
+  }
+  #shopic1:hover{
+    transform: scale(1.1);
+  
+  }
+  #shopic2:hover{
+    transform: scale(1.1);
+  
+  }
+  #shopic3:hover{
+    transform: scale(1.1);
+  
+  }
+  #shopic4:hover{
+    transform: scale(1.1);
+  
+  }
+  #mainpicdiv{
+    cursor: pointer;
+    border-radius: 15px;
+    height: 350px;
+    width: 300px;
+    background-color: #eeeee6;
+    position: relative;
+  }
+  #mainpicdiv img{
+    /* height: 90px;
+    width: 100%; */
+    position: absolute;
+    top: 10%;
+    left: 13%;
+  }
+ 
+  /* <------------------------------------------header section end------------------------------------------------>*/
+  #brand-name{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+  }
+   #det{
+   position: relative;
+   top: 0;
+   }
+   #det h1{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+   }
+  
+   #deti h1{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+   }
+  
+   #mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+   #mobile p{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Bahnschrift;
+   }
+  #title{
+    font-size: 55px !important;
+    color: black;
+    font-family: Bahnschrift;
+  }
+  /*-------------Processer section start---------*/
+  #det{
+    margin-top: 14rem !important;
+  }
+  #det h1{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Bahnschrift;
+  }
+  
+  #det h4{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Bahnschrift;
+  }
+  #det p{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Bahnschrift;
+  }
+  
+  /*-------------Processer section End---------*/
+  /*-------------display section start---------*/
+  #deti{
+    margin-top: 5rem !important;
+  }
+  #deti h1{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Bahnschrift;
+  }
+  #det h4{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Bahnschrift;
+  }
+  #det p{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Bahnschrift;
+  }
+  #deti h4{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Bahnschrift;
+  }
+  #deti p{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Bahnschrift;
+  }
+  /*-------------Processer section end---------*/
+/* footer start */
+footer{
+  margin-top: 4rem;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+}
+#mylinks a, #my-links a{
+  text-decoration: none;
+color:  rgb(65, 65, 65);
+} 
+/* footer End *

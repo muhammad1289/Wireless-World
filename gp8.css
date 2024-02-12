@@ -1,0 +1,358 @@
+/* navbar here start */
+#subnavbar ul li a{
+  color: #000;
+  font-family: Gill Sans Nova;
+}
+#mannav{
+  height: 78px;
+}
+
+#togl-icon2{
+  position: relative;
+}
+#logo2 img{
+   position: absolute;
+  left: 150px; 
+  top: 5px;
+  height: 60px;
+  width: 190px;
+ filter: contrast(2);
+  
+}
+.offcanvas-title{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.offcanvas-title img{
+  height: 80px;
+  width: 240px;
+}
+.offcanvas-body::-webkit-scrollbar{
+  width: 0;
+}
+#signbtn{
+  padding: 5px;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border: none;
+  outline: none;
+  position: absolute;
+  right: 59px;
+  transition: 0.3s;
+}
+#signbtn:hover{
+  background-color: rgb(85, 84, 84);
+  color: white;
+}
+#logbtn{
+  padding: 5px;
+  background-color: whitesmoke;
+  color: rgb(55, 54, 54);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+ position: relative;
+ transition: 0.3s;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-weight: 700;
+}
+#logbtn:hover{
+   background-color: rgb(70, 70, 70);
+  color: whitesmoke;
+}
+.loginbtns2{
+  display: none;
+  position: fixed;
+}
+@media (max-width:867px) {
+  #searchbar {
+    display: none;
+  }
+  #searchbar2 {
+    display: block;
+  }
+  #team-text h1{
+ font-size: 40px;
+  }
+  #searchbar input {
+    display: none;
+  }
+  #searchbar2 input {
+    display: block;
+  }
+  #searchbar button {
+    display: none;
+  }
+  #searchbar2 button {
+    display: block;
+  }
+  #subnav{
+    top: 50px;
+  }
+  #brand-name{
+    font-size: 35px !important;
+  }
+  #logo2 img{
+    height: 40px;
+    width: 165px;
+    margin-top: 10px !important;
+    margin-left: 29px !important;
+  }
+}  
+@media (min-width:867px){
+  #searchbar2 {
+    display: none;
+  }
+  #searchbar2 input{
+    display: none;
+  }
+  #searchbar2 button {
+    display: none;
+}}
+@media (max-width:576px) {
+  #logbtn{
+    display: none;
+  }
+  .loginbtns2{
+    display: block;
+  }
+}
+/* navbra end here */
+/* banner */
+#banner img{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 680px;
+  top: 0;
+  filter: brightness(0.7);
+}
+#team-text{
+  position: absolute;
+  top: 0;
+  color: #f0f0f0;
+}
+#team-text h1{
+  margin-top: 20rem;
+  font-size: 53px;
+  font-weight: bolder;
+  color: #f0f0f0;
+  text-transform: uppercase;
+  font-family: Gill Sans Nova;
+}
+#banner h1{
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+  #nokia{
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    font-family: 'horizon' sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #ffff;
+    margin-top: 14rem;
+  }
+ 
+   #model{
+    width: 9rem;
+    height: 10rem;
+    cursor: pointer;
+   }
+    
+   /* <------------------------------------------header section start------------------------------------------------> */
+   #colorslection{
+    width: 100%;
+    height: 90px;
+    display: flex;
+   }
+  
+    #pic1 {
+     width: 30px;
+     height: 30px;
+     background-color: rgba(27, 24, 24, 0.84);
+     position: absolute;
+     bottom:30px;
+     left: 100px; 
+     border-radius: 50%;
+   }
+   #pic2 {
+    width: 30px;
+    height: 30px;
+    background-color: #00fad495;
+    position: absolute;
+    bottom:30px;
+    left: 140px; 
+    border-radius: 50%;
+   
+  }
+  #pic3 {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(242, 172, 33, 0.591);
+    position: absolute;
+    bottom:30px;
+    left: 180px; 
+    border-radius: 50%;
+   
+  }
+   #showpic{
+    border: 2px solid;
+    margin: 10px;
+    height: 300px;
+    position: relative;
+   }
+  
+   #shopic1{
+    display: block;
+   }
+   
+   #shopic2{
+     display: none;
+   }
+   #shopic3{
+    display: none;
+  }
+
+   #colorslection img{
+    width: 75%;
+    height: 53%;
+    
+    filter: drop-shadow(0 25px 25px #0009);
+    transition: 1s;
+  }
+  #shopic1:hover{
+    transform: scale(1.1);
+  
+  }
+  #shopic2:hover{
+    transform: scale(1.1);
+  
+  }
+  #shopic3:hover{
+    transform: scale(1.1);
+  
+  }
+  #mainpicdiv{
+    cursor: pointer;
+    border-radius: 15px;
+    height: 350px;
+    width: 300px;
+    background-color: #eeeee6;
+    position: relative;
+  }
+  #mainpicdiv img{
+    /* height: 90px;
+    width: 100%; */
+    position: absolute;
+    top: 10%;
+    left: 13%;
+  }
+ 
+  /* <------------------------------------------header section end------------------------------------------------>*/
+  #brand-name{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+  }
+   #det{
+   position: relative;
+   top: 0;
+   }
+   #det h1{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+   }
+  
+   #deti h1{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+   }
+  
+   #mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+   #mobile p{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Bahnschrift;
+   }
+  #title{
+    font-size: 55px !important;
+    color: black;
+    font-family: Bahnschrift;
+  }
+  /*-------------Processer section start---------*/
+  #det{
+    margin-top: 14rem !important;
+  }
+  #det h1{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Bahnschrift;
+  }
+  
+  #det h4{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Bahnschrift;
+  }
+  #det p{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Bahnschrift;
+  }
+  
+  /*-------------Processer section End---------*/
+  /*-------------display section start---------*/
+  #deti{
+    margin-top: 5rem !important;
+  }
+  #deti h1{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Bahnschrift;
+  }
+  #det h4{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Bahnschrift;
+  }
+  #det p{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Bahnschrift;
+  }
+  #deti h4{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Bahnschrift;
+  }
+  #deti p{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Bahnschrift;
+  }
+  /*-------------Processer section end---------*/
+ /* footer start */
+footer{
+  margin-top: 4rem;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+}
+#mylinks a, #my-links a{
+  text-decoration: none;
+color:  rgb(65, 65, 65);
+} 
+/* footer End *

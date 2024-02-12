@@ -1,0 +1,520 @@
+/* navbar here start */
+#subnavbar ul li a{
+  color: #000;
+  font-family: Gill Sans Nova;
+}
+
+#togl-icon2{
+  position: relative;
+}
+#logo2 img{
+   position: absolute;
+  left: 150px; 
+  top: 5px;
+  height: 60px;
+  width: 190px;
+ filter: contrast(2);
+  
+}
+.offcanvas-title{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.offcanvas-title img{
+  height: 80px;
+  width: 240px;
+}
+.offcanvas-body::-webkit-scrollbar{
+  width: 0;
+}
+#signbtn{
+  padding: 5px;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border: none;
+  outline: none;
+  position: absolute;
+  right: 59px;
+  transition: 0.3s;
+}
+#signbtn:hover{
+  background-color: rgb(85, 84, 84);
+  color: white;
+}
+#logbtn{
+  padding: 5px;
+  background-color: whitesmoke;
+  color: rgb(55, 54, 54);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+ position: relative;
+ transition: 0.3s;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-weight: 700;
+}
+#logbtn:hover{
+   background-color: rgb(70, 70, 70);
+  color: whitesmoke;
+}
+.loginbtns2{
+  display: none;
+}
+@media (max-width:867px) {
+  #searchbar {
+    display: none;
+  }
+  #searchbar2 {
+    display: block;
+  }
+  #searchbar input {
+    display: none;
+  }
+  #searchbar2 input {
+    display: block;
+  }
+  #searchbar button {
+    display: none;
+  }
+  #searchbar2 button {
+    display: block;
+  }
+  #subnav{
+    top: 50px;
+  }
+  #logo2 img{
+    height: 40px;
+    width: 165px;
+  }
+}  
+@media (min-width:867px){
+  #searchbar2 {
+    display: none;
+  }
+  #searchbar2 input{
+    display: none;
+  }
+  #searchbar2 button {
+    display: none;
+}}
+@media (max-width:576px) {
+  .loginbtns{
+    display: none;
+  }
+  .loginbtns2{
+    display: block;
+  }
+}
+/* navbra end here */
+/* banner */
+#banner img{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 680px;
+  top: 0;
+  filter: brightness(0.7);
+}
+#team-text{
+  position: absolute;
+  top: 0;
+  color: #f0f0f0;
+}
+#team-text h1{
+  margin-top: 20rem;
+  font-size: 53px;
+  font-weight: bolder;
+  color: #f0f0f0;
+  text-transform: uppercase;
+  font-family: Gill Sans Nova;
+}
+/*--------online shopping-----*/
+#shop{
+  margin-top: 7rem !important;
+}
+a, a:hover {
+	text-decoration: none;
+	transition: color 0.3s ease-in-out;
+}
+#pageHeaderTitle {
+	margin: 2rem 0;
+	text-transform: capitalize;
+	text-align: center;
+	font-size: 26px;
+  font-weight: bolder;
+}
+.postcard {
+  flex-wrap: wrap;
+  display: flex;
+  border-radius: 10px;
+  margin: 0 0 2rem 0;
+  overflow: hidden;
+  position: relative;
+  color: #000;
+	&.dark {
+	background-color: #f6f6f7;
+	}
+	&.light {
+		background-color: #fcfdfd;
+	}
+	.t-dark {
+		color: #fff;
+	}
+  a {
+    color: #000;
+  }
+	h1,	.h1 {
+		margin-bottom: 0.5rem;
+		font-weight: 500;
+		line-height: 1.2;
+	}
+	.small {
+		font-size: 80%;
+	}
+  .postcard__title {
+    font-size: 1.75rem;
+  }
+.postcard__img {
+    max-height: 180px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+  }
+  .postcard__img_link {
+    display: contents;
+  }
+  .postcard__bar {
+    width: 50px;
+    height: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #0d0c0c;
+    transition: width 0.2s ease;
+  }
+.postcard__text {
+    padding: 1.5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+.postcard__preview-txt {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+    height: 100%;
+  }
+  .postcard__tagbox {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 14px;
+    margin: 20px 0 0 0;
+	padding: 0;
+    justify-content: center;
+.tag__item {
+      display: inline-block;
+      background: rgb(0, 0, 0);
+      border-radius: 3px;
+      padding: 2.5px 10px;
+      margin: 0 5px 5px 0;
+      cursor: default;
+      user-select: none;
+      transition: background-color 0.3s;
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+    }
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(-70deg, #05050588, transparent 50%);
+    opacity: 1;
+    border-radius: 10px;
+  }
+  &:hover .postcard__bar {
+    width: 100px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .postcard {
+    flex-wrap: inherit;
+    .postcard__title {
+      font-size: 2rem;
+    }
+    .postcard__tagbox {
+      justify-content: start;
+    }
+    .postcard__img {
+      max-width: 300px;
+      max-height: 100%;
+      transition: transform 0.3s ease;
+    }
+    .postcard__text {
+      padding: 3rem;
+      width: 100%;
+    }
+    .media.postcard__text:before {
+      content: "";
+      position: absolute;
+      display: block;
+      background: #000000;
+      top: -20%;
+      height: 130%;
+      width: 55px;
+    }
+    &:hover .postcard__img {
+      transform: scale(1.1);
+    }
+    &:nth-child(2n+1) {
+      flex-direction: row;
+    }
+    &:nth-child(2n+0) {
+      flex-direction: row-reverse;
+    }
+    &:nth-child(2n+1) .postcard__text::before {
+      left: -12px !important;
+      transform: rotate(4deg);
+    }
+    &:nth-child(2n+0) .postcard__text::before {
+      right: -12px !important;
+      transform: rotate(-4deg);
+    }
+  }
+}
+@media screen and (min-width: 1024px){
+		.postcard__text {
+      padding: 2rem 3.5rem;
+    }	
+	.postcard__text:before {
+      content: "";
+      position: absolute;
+      display: block;      
+      top: -20%;
+      height: 130%;
+      width: 55px;
+    }
+  .postcard.dark {
+		.postcard__text:before {
+			background-color: #4b4b4b1f;
+		}
+  }
+.postcard.light {
+		.postcard__text:before {
+			background-color: #030303;
+		}
+  }
+}
+.outerdiv
+{
+	width: 100%;
+    min-height: 100vh;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.innerdiv
+{
+	transform: scale(0.9);
+	margin: 1rem;
+	display: grid;
+	grid-gap: 1.5rem;
+	grid-template-rows: repeat(2,22rem);
+	grid-template-columns: repeat(4,17rem);
+}
+.div1
+{
+	background: #000000;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-repeat: no-repeat;
+    background-position-x: 25rem;
+}
+.div2
+{
+	background:#000000;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.div3
+{
+	background: rgb(15, 14, 14);
+    grid-column: 4/5;
+    grid-row: 1/3;
+    color: black;
+}
+.div4
+{
+	background: rgb(0, 0, 0);
+	grid-column: 1/2;
+  grid-row: 2/3;
+ color: rgb(30, 27, 27);
+}
+.div5
+{
+	background: #000000;
+	grid-column: 2/4;
+    grid-row: 2/3;
+}
+.userdetails
+{
+	display: flex;
+}
+.imgbox
+{
+	margin-right: 1rem;
+}
+.imgbox img
+{
+	border-radius: 50%;
+	width: 2rem;
+	border: 2px solid #000000;
+}
+.detbox
+{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.detbox p
+{
+	margin: 0;
+}
+.detbox .name
+{
+	color: hsl(0, 0%, 81%);
+    font-size: 0.9rem;
+    margin-bottom: 0.1rem;
+    font-weight: 600;
+}
+.detbox .name.dark
+{
+	color: #f5f6f8;
+}
+.detbox .designation
+{
+	color: hsl(0, 20%, 99%);
+    opacity: 50%;
+    font-size: 0.8rem;
+}
+.detbox .designation.dark
+{
+	color: #49505A;
+}
+.review h4
+{
+	font-size: 1.4rem;
+	color: #F3DEFF;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 0.8rem;
+}
+.review.dark h4{
+	color:#4B5258;
+}
+.review p
+{
+	font-size: 0.95rem;
+    color: #08020b;
+    font-weight: 500;
+    opacity: 50%;
+    line-height: 1.5;
+}
+.review.dark p{
+	color: #0e0e0e;
+}
+.attribution
+{
+	font-size: 1rem;
+    line-height: 1.5;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    text-align: right;
+}
+.attribution a
+{
+	text-decoration: none;
+}
+/*------------------------Testimonial Section Start-----------------------*/
+#team{
+  margin-top: 10rem;
+}
+#team h1{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+text-transform: uppercase;
+}
+.card {
+  box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+}
+
+.avatar-md {
+  height: 5rem;
+  width: 5rem;
+}
+
+.fs-19 {
+  font-size: 19px;
+}
+
+.primary-link {
+  color: #314047;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+a {
+  color: #02af74;
+  text-decoration: none;
+}
+.favorite-icon a, .favorite-icon a {
+  background-color: #da3746;
+  color: #fff;
+  border-color: danger;
+}
+.favorite-icon a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #eff0f2;
+  border-radius: 6px;
+  color: rgba(173,181,189,.55);
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+.candidate-list-box .favorite-icon {
+  position: absolute;
+  right: 22px;
+  top: 22px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.bg-soft-secondary {
+  background-color: rgba(116,120,141,.15)!important;
+  color: #74788d!important;
+}
+.mt-1 {
+  margin-top: 0.25rem!important;
+}
+/*------------------------Testimonial Section End-----------------------*/
+/* footer start */
+footer{
+  margin-top: 10rem;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+}
+#mylinks a, #my-links a{
+  text-decoration: none;
+color:  rgb(65, 65, 65);
+} 
+/* footer End *

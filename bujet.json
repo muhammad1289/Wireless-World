@@ -1,0 +1,38 @@
+[
+    {  
+        "card1link":"gp4xl.html",
+        "card1pic":"images/gp4xl2.png",
+        "card1nam":"GOOGLE PIXEL 4XL",
+        "card1pri":"PRICE : $145"
+    },
+    {
+        "card1link":"gpfold.html",
+        "card1pic":"images/gp51.png",
+        "card1nam":"GOOGLE PIXEL fold",
+        "card1pri":"PRICE : $187"
+    },
+    {
+        "card1link":"iphone6.html",
+        "card1pic":"images/iph62.png",
+        "card1nam":"IPHONE 6",
+        "card1pri":"PRICE : $197"
+    },
+    {
+        "card1link":"iphone8.html",
+        "card1pic":"images/iph83.png",
+        "card1nam":"IPHONE 8",
+        "card1pri":"PRICE : $163"
+    },
+    {
+        "card1link":"gp6a.html",
+        "card1pic":"images/p6a1.png",
+        "card1nam":"GOOGLE PIXEL 6A",
+        "card1pri":"PRICE : $196"
+    },
+    {
+        "card1link":"sama14.html",
+        "card1pic":"images/sama142.png",
+        "card1nam":"SAMSUNG A14",
+        "card1pri":"PRICE : $175"
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "card3link":["iphone15.html","gp6a.html","sama32.html"],
+        "card3pic":["images/ipho153.png","images/p6a1.png","images/sama321.png"],
+        "card3nam":["IPHONE 15 PRO","GOOGLE PIXEL 6A","SAMSUNG A32","TOTAL : $919."],
+        "card3pri":["PRICE : $439","PRICE : $196","PRICE : $284","AFTER DISCOUNT $846"]
+    },
+    {
+        "card3link":["samm13.html","iphonexs.html","samflip5.html"],
+        "card3pic":["images/samm13.png","images/iph10m1.png","images/2_Flip_5-removebg-preview.png"],
+        "card3nam":["SAMSUNG M13","IPHONE 10MAX","SAMSUNG FLIP 5","TOTAL : $955."],
+        "card3pri":["PRICE : $214","PRICE : $342","PRICE : $399","AFTER DISCOUNT $874"]
+    },
+    {
+        "card3link":["sams23.html","iphone6.html","iphone12pro.html"],
+        "card3pic":["images/sams232.png","images/iph62.png","images/iph12p2.png"],
+        "card3nam":["SAMSUNG S23","IPHONE 6","IPHONE 12 PRO","TOTAL : $1,032."],
+        "card3pri":["PRICE : $457","PRICE : $197","PRICE : $378","AFTER DISCOUNT $952"]
+    }   
+
+]

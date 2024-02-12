@@ -1,0 +1,40 @@
+[
+    {
+        "iphonelink":"iphone6.html",
+        "iphonepic":"iphoneimg/6sliver.png",
+        "iphonename":"iPhone 6",
+        "iphoneprice":"$91"
+        
+    },
+{
+        "iphonelink":"iphone8.html",
+        "iphonepic":"iphoneimg/iphone 8.png",
+        "iphonename":"iPhone 8.png",
+        "iphoneprice":"$699"
+        
+    },
+    {
+        "iphonelink":"iphone12pro.html",
+        "iphonepic":"iphoneimg/12pro max.png",
+        "iphonename":"iPhone 12 Pro Max",
+        "iphoneprice":" $485"
+    },
+    {
+        "iphonelink":"iphone15.html",
+        "iphonepic":"iphoneimg/iphone 15.png",
+        "iphonename":"iphone 15",
+        "iphoneprice":"$799"
+    },
+    {
+        "iphonelink":"iphone13pro.html",
+        "iphonepic":"iphoneimg/15pro max.png",
+        "iphonename":"iPhone 13 Pro Max",
+        "iphoneprice":"$1,199"
+    },
+    {
+        "iphonelink":"iphonexs.html",
+        "iphonepic":"iphoneimg/x max white.png",
+        "iphonename":"iPhone X Max",
+        "iphoneprice":"$294"
+    }
+]

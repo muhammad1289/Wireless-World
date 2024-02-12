@@ -1,0 +1,203 @@
+/* navbar here start */
+#mannav{
+  position: fixed;
+}
+#subnavbar ul li a{
+  color: #000;
+  font-family: Gill Sans Nova;
+}
+
+#togl-icon2{
+  position: relative;
+}
+#logo2 img{
+   position: absolute;
+  left: 150px; 
+  top: 5px;
+  height: 60px;
+  width: 190px;
+ filter: contrast(2);
+  
+}
+.offcanvas-title{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.offcanvas-title img{
+  height: 80px;
+  width: 240px;
+}
+.offcanvas-body::-webkit-scrollbar{
+  width: 0;
+}
+#signbtn{
+  padding: 5px;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border: none;
+  outline: none;
+  position: absolute;
+  right: 59px;
+  transition: 0.3s;
+}
+#signbtn:hover{
+  background-color: rgb(85, 84, 84);
+  color: white;
+}
+#logbtn{
+  padding: 5px;
+  background-color: whitesmoke;
+  color: rgb(55, 54, 54);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+ position: relative;
+ transition: 0.3s;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-weight: 700;
+}
+#logbtn:hover{
+   background-color: rgb(70, 70, 70);
+  color: whitesmoke;
+}
+.loginbtns2{
+  display: none;
+}
+@media (max-width:867px) {
+  #searchbar {
+    display: none;
+  }
+  #searchbar2 {
+    display: block;
+  }
+  #searchbar input {
+    display: none;
+  }
+  #searchbar2 input {
+    display: block;
+  }
+  #searchbar button {
+    display: none;
+  }
+  #searchbar2 button {
+    display: block;
+  }
+  #subnav{
+    top: 50px;
+  }
+  #logo2 img{
+    height: 40px;
+    width: 165px;
+  }
+}  
+@media (min-width:867px){
+  #searchbar2 {
+    display: none;
+  }
+  #searchbar2 input{
+    display: none;
+  }
+  #searchbar2 button {
+    display: none;
+}}
+@media (max-width:576px) {
+  .loginbtns{
+    display: none;
+  }
+  .loginbtns2{
+    display: block;
+  }
+}
+/* navbra end here */
+.banner {
+    text-align: center;
+    font-size: large;
+    background-image: url(images/2nd\ banner.png);
+    height: 654px;
+    background-position:  center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 230px 0px 150px 0px;
+	color: #fff;
+	position: relative;
+    filter: brightness(0.7);
+}
+#banner{
+    height: 690px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+}
+#team-text{
+  position: absolute;
+  top: 0;
+  color: #f0f0f0;
+}
+#team-text h1{
+  margin-top: 20rem;
+  font-size: 53px;
+  font-weight: bolder;
+  color: #f0f0f0;
+  text-transform: uppercase;
+  font-family: Gill Sans Nova;
+}
+
+#banner h1{
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* information here */
+button{
+ box-shadow: none !important;
+}
+.contact-information{
+    margin-top: 100px;
+}
+.contact-item{
+    background-color: gainsboro;
+    padding: 60px 30px;
+    text-align: center;
+    height: 350px;
+}
+.contact-item i {
+	color: #a4c639;
+	font-size: 48px;
+	margin-bottom: 40px;
+}
+.contact-item h4{
+    
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.contact-item a {
+         color: #a4c639;
+         font-weight: 600;
+    text-decoration: none;
+	font-size: 15px;
+}
+
+
+/* Map Here */
+
+#map{
+    filter: brightness(0.5);
+}
+#locat{
+    margin-top: 10rem;
+}
+/* footer start */
+footer{
+    margin-top: 4rem;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  }
+  #mylinks a, #my-links a{
+    text-decoration: none;
+  color:  rgb(65, 65, 65);
+  } 
+  /* footer End *

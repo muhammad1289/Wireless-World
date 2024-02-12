@@ -1,0 +1,10 @@
+[
+    {
+        "pix8":["compareimg/pix8.jpeg","$ 546","Retina HD display.4.7-inch (diagonal) LED-backlit widescreen Multi‑Touch display with IPS technology.1334-by-750-pixel resolution at 326 ppi.1400:1 contrast ratio (typical)500 cd/m2 max brightness (typical)Full sRGB standard.Dual-domain pixels for wide viewing angles.","GOOGLE PIXEL (8)"],
+        "pix7":["compareimg/pix7.jpeg","$ 646","Retina HD display. 4.7-inch (diagonal) widescreen LCD Multi-Touch display with IPS technology. 1334-by-750-pixel resolution at 326 ppi. 1400:1 contrast ratio (typical) True Tone display. Wide color display (P3) 3D Touch. 625 nits max brightness (typical)","GOOGLE PIXEL (7A)"],
+        "pixfold":["compareimg/pixfold.jpeg","$ 798","Type, Super Retina OLED, HDR10, Dolby Vision, 625 nits (HBM) ; Size, 6.5 inches, 102.9 cm2 (~84.4% screen-to-body ratio) ; Resolution, 1242 x 2688 pixels","GOOGLE PIXEL (FOLD)"],
+        "pix6":["compareimg/pix6.jpeg","$ 845","Apple iPhone 12 Pro Max ; Processor. CPU, Hexa-core (2 x 3.1 GHz Firestorm + 4 x 1.8 GHz Icestorm). Chipset, Apple A14 Bionic (5 nm).","GOOGLE PIXEL (6)"],
+        "pix4":["compareimg/pix4.jpeg","$ 1157","Released. Sep 22, 2023 Display. 6.1 inches. 2556 x 1179 pixels. 60Hz Refresh rate. Camera. 48 MP (Dual camera) 12 MP front.Hardware. A16 Bionic. 6GB RAM. Storage. 128GB, not expandable.Battery. 3349 mAh. OS. iOS 17.x.","GOOGLE PIXEL (4)"],
+        "pix3":["compareimg/pix3.jpeg","$ 932","Super Retina XDR display with ProMotion. 6.7inch (diagonal) allscreen OLED display.2778by1284-pixel resolution at 458 ppi. ProMotion technology with adaptive refresh rates up to 120Hz. HDR display.True Tone. Wide color (P3) Haptic Touch.","GOOGLE PIXEL (3)"]
+    }
+]
