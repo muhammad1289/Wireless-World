@@ -1,0 +1,307 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+    <script src="https://kit.fontawesome.com/5f2122fd07.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../bootstrap-5.1.3-dist/css/bootstrap.min.css">
+
+     <style>
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container-fluid{
+    width: 100%;
+    height: 100vh;
+    
+    background-image: linear-gradient(rgba(0, 0, 50, 0.7),rgba(0, 0, 50, 0.7)),url(back.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.foambox{
+    background-color:azure;
+    display: block;
+    width: 90%; 
+    max-width: 450px;
+     transform: translate(-50%,50%); 
+    position: absolute;
+    top: -40%;
+    left: 50%;
+    padding: 50px 60px 40px;
+    text-align: center;
+    border-radius: 15px;
+}
+#foambox2{
+    background-color:azure;
+    transition: 0.5s;
+    /* border: 2px solid; */
+    display: block;
+    height: 0px;
+    overflow: hidden;
+    width: 100%; 
+    max-width: 450px;
+     /* transform: translate(-50%,70%);  */
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    /* padding: 50px 60px 70px; */
+    text-align: center;
+    border-radius: 15px;
+}
+.foambox h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: rgb(63, 8, 116);
+    position: relative;
+}
+.foambox h1::after{
+    content: '';
+    height: 6px;
+    width: 40px;
+    border-radius: 3px;
+    background:  rgb(63, 8, 116);
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.input-feild{
+    background: rgba(243, 238, 238, 0.551);
+    margin: 15px 0px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+input{
+    
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+.input-feild i{
+    margin-left: 15px;
+    color: #999;
+
+}
+form p{
+    text-align: left;
+    font-size: 13px;
+}
+form p a{
+    text-decoration: none;
+    color: rgb(66, 129, 132);
+}
+.btn-feild{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-feild button{
+    flex-basis: 48%;
+    background: #3c00a0;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 40px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+#signsubbtn{
+    flex-basis: 48%;
+   
+    background: #c0bebe79;
+    color: #5d5c5c;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 190px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+#signsubbtn:hover{
+    background: #3c00a0;
+    color: #fff;
+}
+
+
+#logsubbtn{
+    flex-basis: 48%;
+   
+    background: #c0bebe79;
+    color: #5d5c5c;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 190px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+#logsubbtn:hover{
+    background: #3c00a0;
+    color: #fff;
+}
+
+.inputgroup{
+    height: 280px;
+}
+.btn-feild .disable{
+    background: #c0bebe79;
+    color: #5d5c5c;
+}
+     </style>
+
+
+
+</head>
+<body>
+    <div class="container-fluid">
+      <div class="foambox">
+        <h1 id="title">Sign up</h1>
+        <form>
+          <div class="inputgroup">
+            <div class="input-feild" id="namefield">
+               <i class="fa-solid fa-user"></i>
+               <input type="text" placeholder="Name" id="signnam">
+            </div>
+
+            <div class="input-feild">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" placeholder="Email" id="signeml">
+            </div>
+
+            <div class="input-feild">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" placeholder="Password" id="signpw">
+            </div>
+            < <p>Lost password <a href="">Click Here!</a></p> -->
+            <!-- <ul>
+              <li class="length">Password Must be at least 8 characters long</li>
+              <li class="lowercase">Must contain a lowercase letter</li>
+              <li class="uppercase"> Must contain a uppercase letter</li>
+            </ul>
+
+            <button id="signsubbtn" onclick="signupreq()">Submit</button>
+
+
+        </div>  
+       
+      <div class="btn-feild">
+            <button type="button" onclick="signup()" id="signupbtn">Sign up</button>
+            <button type="button" onclick="signin()" id="signinbtn" class="disable">Log in</button>
+        </div> 
+      
+       
+    </div>
+    <script> -->
+
+          //------------------------------------account creation signup------------------------------------------>
+
+        
+          <!-- function signupreq(){
+
+            var name=document.getElementById("signnam");
+            var email=document.getElementById("signeml");
+            var password=document.getElementById("signpw");
+            var lowercase=/[a-z]/;
+            var uppercase=/[A-Z]/;
+            var number=/[0-9]/;
+
+
+            if(name.value.length == 0){
+              alert("Please Enter Your Name");
+            }
+            else if(email.value.length == 0){
+              alert("Please Add Your Email");
+            }
+            else if(password.value.length == 0){
+              alert("Please Add Your Password");
+            }
+            else if(name.value.length == 0 && email.value.length == 0 && password.value.length == 0){
+              alert("Please fill all the required feilds");
+            }
+            else if(!password.value.length == 8){
+              alert("Password should not exceed 8 characters");
+            }
+            else if(!password.value.match(number)){
+              alert("Password must have atleast one number");
+            }
+            else if(!password.value.match(lowercase)){
+              alert("Password must have atleast one lowercase letter");
+            }
+            else if(!password.value.match(uppercase)){
+              alert("Password must have atleast one uppercase letter");
+            }
+            else{
+              localStorage.setItem('name',name.value);
+              localStorage.setItem('email',email.value);
+              localStorage.setItem('pass',password.value);
+             
+              alert("Thank you for making an account on Wireless World");
+              window.open("index.html ");
+            }
+
+          }
+
+
+
+         
+
+
+
+
+
+
+
+
+
+
+
+      let signupbtn = document.getElementById("signupbtn");
+      let signinbtn = document.getElementById("signinbtn");
+      let namefield = document.getElementById("namefield");
+      let title = document.getElementById("title");
+      function signin()
+      {
+        // namefield.style.maxHeight = "0";
+        // title.innerHTML = "Sign in";
+         signupbtn.classList.add("disable");
+         signinbtn.classList.remove("disable");
+           foambox2.style.height="463px"
+           foambox2.style. padding= "50px 60px 70px";
+
+
+      }
+       function signup()
+       {
+        //  namefield.style.maxHeight = "65px";
+        //  title.innerHTML = "Sign up";
+        signupbtn.classList.remove("disable");
+        signinbtn.classList.add("disable");
+        foambox2.style.height="0px";
+        foambox2.style.padding="0";
+       }
+    
+    </script>
+</body> -->

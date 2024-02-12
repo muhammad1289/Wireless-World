@@ -1,0 +1,39 @@
+[
+    {
+        "card2link":"samflip5.html",
+        "card2pic":"images/2_Flip_5-removebg-preview.png",
+        "card2nam":"SAMSUNG FLIP 5",
+        "card2pri":"PRICE : $399"
+    },
+    {
+        "card2link":"iphone15.html",
+        "card2pic":"images/ipho153.png",
+        "card2nam":"IPHONE 15 PRO",
+        "card2pri":"PRICE : $439"
+    },
+    {
+        "card2link":"gp8.html",
+        "card2pic":"images/gp8pro1.png",
+        "card2nam":"GOOGLE PIXEL 8",
+        "card2pri":"PRICE : $409"
+    },
+    {
+        "card2link":"gp4xl.html",
+        "card2pic":"images/rm131.png",
+        "card2nam":"REDMI 13A",
+        "card2pri":"PRICE : $343"
+    },
+    {
+        "card2link":"gp7a.html",
+        "card2pic":"images/gp7a5.png",
+        "card2nam":"GOOGLE PIXEL 7A",
+        "card2pri":"PRICE : $367"
+    },
+    {
+        "card2link":"sama54.html",
+        "card2pic":"images/sama543.png",
+        "card2nam":"SAMSUNG A 54 ",
+        "card2pri":"PRICE : $318"
+    }
+
+]

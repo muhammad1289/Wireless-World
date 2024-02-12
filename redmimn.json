@@ -1,0 +1,57 @@
+[
+    {
+        "iphonelink":"reda1.html",
+        "iphonepic":"redmiimg/A1+.png",
+        "iphonename":"Redmi A1+",
+        "iphoneprice":"$99"
+        
+    },
+
+
+    {
+        "iphonelink":"reda2.html",
+        "iphonepic":"redmiimg/blue A2+.png",
+        "iphonename":"Redmi A2+",
+        "iphoneprice":"$115"
+        
+    },
+
+
+
+    {
+        "iphonelink":"red13.html",
+        "iphonepic":"redmiimg/blue 13c.png",
+        "iphonename":"Redmi 13C",
+        "iphoneprice":"$140"
+    },
+
+
+
+    {
+        "iphonelink":"red10.html",
+        "iphonepic":"redmiimg/white 10A.png",
+        "iphonename":"Redmi 10A",
+        "iphoneprice":"$109"
+    },
+
+
+
+    {
+        "iphonelink":"red11.html",
+        "iphonepic":"redmiimg/Blue Note 11.png",
+        "iphonename":"Redmi Note 11",
+        "iphoneprice":" $193"
+    },
+    {
+        "iphonelink":"red12.html",
+        "iphonepic":"redmiimg/white Note 12 Pro.png",
+        "iphonename":"Redmi Note 12 Pro",
+        "iphoneprice":"$300"
+    }
+
+
+
+]
+
+
+

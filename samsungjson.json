@@ -1,0 +1,56 @@
+[
+    {
+        "iphonelink":"sama14.html",
+        "iphonepic":"samsungimg/A14.png",
+        "iphonename":"Samsung A14",
+        "iphoneprice":"174.50"
+        
+    },
+
+
+    {
+        "iphonelink":"sama32.html",
+        "iphonepic":"samsungimg/A32 black.jpg",
+        "iphonename":"Samsung A32",
+        "iphoneprice":"$119"
+    },
+
+
+
+    {
+        "iphonelink":"sama54.html",
+        "iphonepic":"samsungimg/A54 5G black.jpg",
+        "iphonename":"Samsung A54",
+        "iphoneprice":"$ 200"
+    },
+
+
+
+    {
+        "iphonelink":"samm13.html",
+        "iphonepic":"samsungimg/samm13brown.png",
+        "iphonename":"samsung M13",
+        "iphoneprice":"$214"
+    },
+
+
+
+    {
+        "iphonelink":"samflip5.html",
+        "iphonepic":"samsungimg/Zflip 5 black.png",
+        "iphonename":"Samsung Z Flip 5",
+        "iphoneprice":" $874.99"
+    },
+    {
+        "iphonelink":"sams23.html",
+        "iphonepic":"samsungimg/s23 black.jpg",
+        "iphonename":"Samsung S23",
+        "iphoneprice":"$499"
+    }
+
+
+
+]
+
+
+

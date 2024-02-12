@@ -1,0 +1,253 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#banner{
+    background-image: url(gallaryimages/gallery\ banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.row img{
+    width: 100%;
+    padding: 2px;
+  
+    height: 100%;
+}
+/* #row2{
+    height: 20rem;
+} */
+#row2 img{
+    height: 22rem;
+}
+#row3 img{
+    height: 32rem;
+}
+#row4 img{
+    height: 30rem;
+}
+#row5 img{
+    height: 27rem;
+}
+#row8 img{
+    height: 19rem;
+}
+#row9 img{
+    height: 45rem;
+}
+#row10 img{
+    height: 28rem;
+}
+#row12 img{
+    height: 19rem;
+}
+
+
+/* <!------------------------------layers--------------------------------> */
+
+
+.layer1{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    cursor: pointer;
+   
+   }
+.layer1:hover{
+    background: rgba(192, 191, 191, 0.707);
+}
+
+.layer1 .elements{
+    opacity: 0;
+    transition: 0.7s;
+     display: flex; 
+     justify-content:center;
+    align-items: center; 
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    text-align: center;
+    padding: 10px;
+}
+ .layer1 .elements:hover{
+    opacity: 1;
+}
+
+
+
+
+.layer1 h3{
+    /* position: absolute;
+    top: 130px;
+    left: 104px; */
+    border-left: 2px whitesmoke solid;
+    border-right: 2px whitesmoke solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(65, 65, 65);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 1400px;
+    margin-bottom: 30px;
+}
+.layer1 button{
+    /* position: absolute; */
+    border-radius: 20px;
+    padding: 20px;
+    /* top: 250px;
+    left: 114px; */
+    height: 35px;
+    width: 150px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background-color: rgb(148, 143, 143);
+    border: 1px whitesmoke solid;
+    
+}
+.layer1 #btn2{
+    /* position: absolute;
+    top: 250px;
+    left: 344px; */
+    height: 35px;
+    width: 150px;
+}
+
+
+#pic1{
+    position: relative; 
+     /* overflow: hidden;
+     border-radius: 1px;
+     transition: 0.5s; */
+
+} 
+
+
+
+/* .layer1{
+    position: absolute; */
+    /* top: 0%; */
+    /* height: 100%;
+    width: 100%;
+    display: list-item;
+    justify-content: center;
+    align-items: center;
+    background: rgba(192, 191, 191, 0.707);
+    bottom: -400px;
+   transition: 0.5s;
+}
+
+
+.layer1 button:hover{
+    background-color: rgb(65, 65, 65);
+    color: whitesmoke;
+}
+
+ 
+#pic1:hover .layer1{
+    bottom: 0px;
+}
+
+#pic2{
+    position: relative; 
+     overflow: hidden;
+     border-radius: 1px;
+     transition: 0.5s;
+
+}
+#pic2:hover .layer1{
+    bottom: 0px;
+} */
+
+
+
+
+/* <!------------------------------layers--------------------------------> */
+
+
+
+/* <!---------------------------heading-------------------------------> */
+#bujetbaner3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 40px;
+    width: 80%;
+    /* border-bottom-right-radius:90px ; */
+    clip-path: polygon(0 0, 100% 0%, 97% 100%, 0% 100%);
+    background-color:  rgb(65, 65, 65);
+   display: inline-flex;
+  
+  }
+  #bujetbaner3 #bana1{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 20px;
+  }
+  #bujetbaner3 a{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    line-height: 40px;
+    text-decoration: none;
+    color: whitesmoke;
+    position: relative;
+  }
+  #bujetbaner3 #bana1::before{
+    content: "";
+    height: 33px;
+    width: 2px;
+    position: absolute;
+    left: 84px;
+    rotate: 13deg;
+    background-color: whitesmoke;
+  }
+
+
+  @media (max-width:768px) {
+   
+    #bujbancol a{
+      font-size: 15px;
+    }
+    }
+
+
+
+    @media (max-width:576px) {
+       
+        #bujbancol a{
+          font-size: 9px;
+          font-weight: 900;
+        }
+    }      
+
+
+
+/* <!---------------------------heading-------------------------------> */
+
+
+
+
+
+
+
+
+
+
+
+
+
